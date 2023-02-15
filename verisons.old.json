@@ -1,0 +1,336 @@
+{
+    "macOS": [
+        {
+            "ver": "2.0.0",
+            "url": "https://desktop.figma.com/mac/Figma-2.0.0.zip",
+            "fileName": "Figma-2.0.0.MacOS.zip",
+            "type": "macOS",
+            "size": 47353254,
+            "date": "2017-06-29T16:47:03.000Z"
+        },
+        {
+            "ver": "2.0.1",
+            "url": "https://desktop.figma.com/mac/Figma-2.0.1.zip",
+            "fileName": "Figma-2.0.1.MacOS.zip",
+            "type": "macOS",
+            "size": 47353555,
+            "date": "2017-07-07T23:24:47.000Z"
+        },
+        {
+            "ver": "2.0.2",
+            "url": "https://desktop.figma.com/mac/Figma-2.0.2.zip",
+            "fileName": "Figma-2.0.2.MacOS.zip",
+            "type": "macOS",
+            "size": 47353499,
+            "date": "2017-07-08T00:40:47.000Z"
+        },
+        {
+            "ver": "3.0.0",
+            "url": "https://desktop.figma.com/mac/Figma-3.0.0.zip",
+            "fileName": "Figma-3.0.0.MacOS.zip",
+            "type": "macOS",
+            "size": 47354965,
+            "date": "2017-07-17T23:25:47.000Z"
+        },
+        {
+            "ver": "3.0.1",
+            "url": "https://desktop.figma.com/mac/Figma-3.0.1.zip",
+            "fileName": "Figma-3.0.1.MacOS.zip",
+            "type": "macOS",
+            "size": 47354280,
+            "date": "2017-07-19T17:32:59.000Z"
+        },
+        {
+            "ver": "3.0.2",
+            "url": "https://desktop.figma.com/mac/Figma-3.0.2.zip",
+            "fileName": "Figma-3.0.2.MacOS.zip",
+            "type": "macOS",
+            "size": 47356001,
+            "date": "2017-08-15T16:19:14.000Z"
+        },
+        {
+            "ver": "3.0.3",
+            "url": "https://desktop.figma.com/mac/Figma-3.0.3.zip",
+            "fileName": "Figma-3.0.3.MacOS.zip",
+            "type": "macOS",
+            "size": 47355988,
+            "date": "2017-08-15T16:51:04.000Z"
+        },
+        {
+            "ver": "3.0.4",
+            "url": "https://desktop.figma.com/mac/Figma-3.0.4.zip",
+            "fileName": "Figma-3.0.4.MacOS.zip",
+            "type": "macOS",
+            "size": 47356192,
+            "date": "2017-08-15T20:54:33.000Z"
+        },
+        {
+            "ver": "3.1.0",
+            "url": "https://desktop.figma.com/mac/Figma-3.1.0.zip",
+            "fileName": "Figma-3.1.0.MacOS.zip",
+            "type": "macOS",
+            "size": 47352693,
+            "date": "2017-09-13T17:56:51.000Z"
+        },
+        {
+            "ver": "3.2.0",
+            "url": "https://desktop.figma.com/mac/Figma-3.2.0.zip",
+            "fileName": "Figma-3.2.0.MacOS.zip",
+            "type": "macOS",
+            "size": 47352511,
+            "date": "2017-09-14T19:19:25.000Z"
+        },
+        {
+            "ver": "3.3.0",
+            "url": "https://desktop.figma.com/mac/Figma-3.3.0.zip",
+            "fileName": "Figma-3.3.0.MacOS.zip",
+            "type": "macOS",
+            "size": 47352496,
+            "date": "2017-09-14T20:30:39.000Z"
+        },
+        {
+            "ver": "3.3.1",
+            "url": "https://desktop.figma.com/mac/Figma-3.3.1.zip",
+            "fileName": "Figma-3.3.1.MacOS.zip",
+            "type": "macOS",
+            "size": 47360136,
+            "date": "2017-11-14T18:28:28.000Z"
+        },
+        {
+            "ver": "4.0.0",
+            "url": "https://desktop.figma.com/mac/Figma-4.0.0.zip",
+            "fileName": "Figma-4.0.0.MacOS.zip",
+            "type": "macOS",
+            "size": 48581838,
+            "date": "2018-07-09T19:16:21.000Z"
+        },
+        {
+            "ver": "4.0.1",
+            "url": "https://desktop.figma.com/mac/Figma-4.0.1.zip",
+            "fileName": "Figma-4.0.1.MacOS.zip",
+            "type": "macOS",
+            "size": 48581816,
+            "date": "2018-07-11T10:01:17.000Z"
+        },
+        {
+            "ver": "64.0.0",
+            "url": "https://desktop.figma.com/mac/Figma-64.0.0.zip",
+            "fileName": "Figma-64.0.0.MacOS.zip",
+            "type": "macOS",
+            "size": 48602706,
+            "date": "2018-08-22T21:54:56.000Z"
+        },
+        {
+            "ver": "75.0.0",
+            "url": "https://desktop.figma.com/mac/Figma-75.0.0.zip",
+            "fileName": "Figma-75.0.0.MacOS.zip",
+            "type": "macOS",
+            "size": 52378002,
+            "date": "2019-07-31T19:35:48.000Z"
+        },
+        {
+            "ver": "99.0.0",
+            "url": "https://desktop.figma.com/mac/Figma-99.0.0.zip",
+            "fileName": "Figma-99.0.0.MacOS.zip",
+            "type": "macOS",
+            "size": 86240697,
+            "date": "2021-08-13T07:02:41.000Z"
+        },
+        {
+            "ver": "107.0.0",
+            "url": "https://desktop.figma.com/mac/Figma-107.0.0.zip",
+            "fileName": "Figma-107.0.0.MacOS.zip",
+            "type": "macOS",
+            "size": 86033253,
+            "date": "2021-12-06T21:12:41.000Z"
+        },
+        {
+            "ver": "107.1.0",
+            "url": "https://desktop.figma.com/mac/Figma-107.1.0.zip",
+            "fileName": "Figma-107.1.0.MacOS.zip",
+            "type": "macOS",
+            "size": 86033450,
+            "date": "2022-01-20T02:06:01.000Z"
+        }
+    ],
+    "Windows": [
+        {
+            "ver": "2.0.0",
+            "url": "https://desktop.figma.com/win/Figma-2.0.0-full.nupkg",
+            "fileName": "Figma-2.0.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54492553,
+            "date": "2017-06-29T16:48:12.000Z"
+        },
+        {
+            "ver": "2.0.1",
+            "url": "https://desktop.figma.com/win/Figma-2.0.1-full.nupkg",
+            "fileName": "Figma-2.0.1.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54492861,
+            "date": "2017-07-07T23:29:33.000Z"
+        },
+        {
+            "ver": "2.0.2",
+            "url": "https://desktop.figma.com/win/Figma-2.0.2-full.nupkg",
+            "fileName": "Figma-2.0.2.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54492824,
+            "date": "2017-07-08T00:45:14.000Z"
+        },
+        {
+            "ver": "3.0.0",
+            "url": "https://desktop.figma.com/win/Figma-3.0.0-full.nupkg",
+            "fileName": "Figma-3.0.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54490143,
+            "date": "2017-07-17T23:30:59.000Z"
+        },
+        {
+            "ver": "3.0.1",
+            "url": "https://desktop.figma.com/win/Figma-3.0.1-full.nupkg",
+            "fileName": "Figma-3.0.1.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54489315,
+            "date": "2017-07-19T17:47:32.000Z"
+        },
+        {
+            "ver": "3.0.2",
+            "url": "https://desktop.figma.com/win/Figma-3.0.2-full.nupkg",
+            "fileName": "Figma-3.0.2.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54488217,
+            "date": "2017-08-15T16:20:00.000Z"
+        },
+        {
+            "ver": "3.0.3",
+            "url": "https://desktop.figma.com/win/Figma-3.0.3-full.nupkg",
+            "fileName": "Figma-3.0.3.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54488195,
+            "date": "2017-08-15T16:51:51.000Z"
+        },
+        {
+            "ver": "3.0.4",
+            "url": "https://desktop.figma.com/win/Figma-3.0.4-full.nupkg",
+            "fileName": "Figma-3.0.4.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54488330,
+            "date": "2017-08-15T20:55:24.000Z"
+        },
+        {
+            "ver": "3.1.0",
+            "url": "https://desktop.figma.com/win/Figma-3.1.0-full.nupkg",
+            "fileName": "Figma-3.1.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54483970,
+            "date": "2017-09-13T17:57:33.000Z"
+        },
+        {
+            "ver": "3.2.0",
+            "url": "https://desktop.figma.com/win/Figma-3.2.0-full.nupkg",
+            "fileName": "Figma-3.2.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54483781,
+            "date": "2017-09-14T19:20:25.000Z"
+        },
+        {
+            "ver": "3.3.0",
+            "url": "https://desktop.figma.com/win/Figma-3.3.0-full.nupkg",
+            "fileName": "Figma-3.3.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54483813,
+            "date": "2017-09-14T20:31:49.000Z"
+        },
+        {
+            "ver": "3.3.1",
+            "url": "https://desktop.figma.com/win/Figma-3.3.1-full.nupkg",
+            "fileName": "Figma-3.3.1.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54498622,
+            "date": "2018-01-23T20:42:23.000Z"
+        },
+        {
+            "ver": "4.0.1",
+            "url": "https://desktop.figma.com/win/Figma-4.0.1-full.nupkg",
+            "fileName": "Figma-4.0.1.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 51484968,
+            "date": "2018-07-11T11:44:14.000Z"
+        },
+        {
+            "ver": "64.0.0",
+            "url": "https://desktop.figma.com/win/Figma-64.0.0-full.nupkg",
+            "fileName": "Figma-64.0.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 51512511,
+            "date": "2018-08-22T21:51:52.000Z"
+        },
+        {
+            "ver": "75.0.0",
+            "url": "https://desktop.figma.com/win/Figma-75.0.0-full.nupkg",
+            "fileName": "Figma-75.0.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 54211126,
+            "date": "2019-07-31T19:38:32.000Z"
+        },
+        {
+            "ver": "99.0.0",
+            "url": "https://desktop.figma.com/win/Figma-99.0.0-full.nupkg",
+            "fileName": "Figma-99.0.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 82434200,
+            "date": "2021-07-14T16:36:38.000Z"
+        },
+        {
+            "ver": "106.0.0",
+            "url": "https://desktop.figma.com/win/Figma-106.0.0-full.nupkg",
+            "fileName": "Figma-106.0.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 89873274,
+            "date": "2021-11-16T12:29:00.000Z"
+        },
+        {
+            "ver": "107.0.0",
+            "url": "https://desktop.figma.com/win/Figma-107.0.0-full.nupkg",
+            "fileName": "Figma-107.0.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 83415741,
+            "date": "2021-12-06T21:13:04.000Z"
+        },
+        {
+            "ver": "107.1.0",
+            "url": "https://desktop.figma.com/win/Figma-107.1.0-full.nupkg",
+            "fileName": "Figma-107.1.0.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 83415781,
+            "date": "2021-12-21T00:52:21.000Z"
+        }
+    ],
+    "macOS_ARM": [
+        {
+            "ver": "99.0.0",
+            "url": "https://desktop.figma.com/mac-arm/Figma-99.0.0.zip",
+            "fileName": "Figma-99.0.0.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 87450854,
+            "date": "2021-08-13T07:03:08.000Z"
+        },
+        {
+            "ver": "107.0.0",
+            "url": "https://desktop.figma.com/mac-arm/Figma-107.0.0.zip",
+            "fileName": "Figma-107.0.0.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 87684452,
+            "date": "2021-12-06T21:12:14.000Z"
+        },
+        {
+            "ver": "107.1.0",
+            "url": "https://desktop.figma.com/mac-arm/Figma-107.1.0.zip",
+            "fileName": "Figma-107.1.0.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 87694669,
+            "date": "2022-01-20T02:05:45.000Z"
+        }
+    ]
+}
