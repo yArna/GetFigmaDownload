@@ -1,5 +1,6 @@
 import fs from "fs"
 import dayjs from "dayjs"
+import { compareVersions } from "compare-versions"
 
 let readmeBase = fs.readFileSync("./readme.base.md").toString()
 let verisons = JSON.parse(fs.readFileSync("./verisons.json").toString())
@@ -16,6 +17,7 @@ fs.writeFileSync("./readme.md", finReadme)
 
 function resultToMdTable(versionsResultMap) {
     return Object.entries(versionsResultMap)
+        .sort((a, b) => compareVersions(a[0], b[0]))
         .reverse()
         .map(([ver, x]) => {
             let file_windows = x["Windows"]
