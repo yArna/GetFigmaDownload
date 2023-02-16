@@ -2,8 +2,15 @@
 
 有时候我们无法访问 Figma 官方网站，或者是需要的不是最新版本，此时你就可以从使用本工具获得版本
 
-
 ## 最新版本
+
+平台|版本|日期|地址
+---|---|---|---
+[Windows(91.49MB)](https://desktop.figma.com/win/Figma-116.6.3-full.nupkg)|116.6.3|2023/02/08|https://desktop.figma.com/win/Figma-116.6.3-full.nupkg
+[macOS(88.83MB)](https://desktop.figma.com/mac/Figma-116.6.3.zip)|116.6.3|2023/02/08|https://desktop.figma.com/mac/Figma-116.6.3.zip
+[macOS_ARM(84.90MB)](https://desktop.figma.com/mac-arm/Figma-116.6.3.zip)|116.6.3|2023/02/08|https://desktop.figma.com/mac-arm/Figma-116.6.3.zip
+
+可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
 ## 全部版本
 
