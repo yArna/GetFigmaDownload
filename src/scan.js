@@ -10,7 +10,7 @@ scan(116, 118)
 //--------------------------
 
 async function scan(min, max) {
-    let resultPool = {}
+    let resultPool = Object.assign({})
 
     for (let v1 = min; v1 < max; v1++) {
         for (let v2 = 0; v2 < 30; v2++) {
@@ -69,17 +69,7 @@ async function checkUrl(url, ver, fileName, type, resultPool) {
 }
 
 function save(data) {
-    let oldFile = fs.readFileSync("./verisons.json")
-    let oldData = JSON.parse(oldFile)
-
-    ;[("Windows", "macOS", "macOS_ARM")].forEach((type) => {
-        data[type].forEach((item) => {
-            if (oldData[type].find((x) => x.ver === item.ver)) return
-            oldData[type].push(item)
-        })
-
-        oldData[type] = oldData[type].sort((a, b) => versionCompare(b.ver, a.ver))
-    })
-
-    fs.writeFileSync("./verisons.json", JSON.stringify(oldData, null, 4))
+    fs.writeFileSync("./verisons-last.json", JSON.stringify(data, null, 4))
 }
+
+

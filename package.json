@@ -4,6 +4,7 @@
     "scripts": {
         "build": "npm run scan && npm run doc",
         "scan": "bun ./src/scan.js",
+        "merge": "bun ./src/merge.js",
         "doc": "node ./src/genReadme.js"
     },
     "license": "MIT",
