@@ -1,10 +1,11 @@
 import axios from "axios"
 import fs from "fs"
+import { versionCompare } from "fzz"
 
 //--------------------------
 // 扫描可用版本，指定最小到最大的版本范围（如 0 -> 120 ）
 // 结果保存到 verisons.json 中
-scan(120, 130)
+scan(116, 118)
 
 //--------------------------
 
@@ -12,8 +13,8 @@ async function scan(min, max) {
     let resultPool = {}
 
     for (let v1 = min; v1 < max; v1++) {
-        for (let v2 = 0; v2 < 20; v2++) {
-            for (let v3 = 0; v3 < 20; v3++) {
+        for (let v2 = 0; v2 < 30; v2++) {
+            for (let v3 = 0; v3 < 30; v3++) {
                 let ver = `${v1}.${v2}.${v3}`
                 if (v2 == 0) {
                     await fetchVer(ver, resultPool)
@@ -68,5 +69,17 @@ async function checkUrl(url, ver, fileName, type, resultPool) {
 }
 
 function save(data) {
-    fs.writeFileSync("./verisons.json", JSON.stringify(data))
+    let oldFile = fs.readFileSync("./verisons.json")
+    let oldData = JSON.parse(oldFile)
+
+    ;[("Windows", "macOS", "macOS_ARM")].forEach((type) => {
+        data[type].forEach((item) => {
+            if (oldData[type].find((x) => x.ver === item.ver)) return
+            oldData[type].push(item)
+        })
+
+        oldData[type] = oldData[type].sort((a, b) => versionCompare(b.ver, a.ver))
+    })
+
+    fs.writeFileSync("./verisons.json", JSON.stringify(oldData, null, 4))
 }
