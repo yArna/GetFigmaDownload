@@ -6,9 +6,9 @@
 
 平台|版本|日期|地址
 ---|---|---|---
-[Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.4-full.nupkg)|116.15.4|2023/11/28|https://desktop.figma.com/win/Figma-116.15.4-full.nupkg
-[macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.4.zip)|116.15.4|2023/11/28|https://desktop.figma.com/mac/Figma-116.15.4.zip
-[macOS_ARM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.4.zip)|116.15.4|2023/11/28|https://desktop.figma.com/mac-arm/Figma-116.15.4.zip
+[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.9-full.nupkg)|116.17.9|2024/03/08|https://desktop.figma.com/win/Figma-116.17.9-full.nupkg
+[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.9.zip)|116.17.9|2024/03/08|https://desktop.figma.com/mac/Figma-116.17.9.zip
+[macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.9.zip)|116.17.9|2024/03/08|https://desktop.figma.com/mac-arm/Figma-116.17.9.zip
 
 可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
@@ -16,6 +16,12 @@
 
 版本|日期|Windows|macOS|macOS_ARM(苹果芯片)
 ---|---|---|---|---
+`v116.17.9`|2024/03/08|[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.9-full.nupkg)|[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.9.zip)|[macOS_RAM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.9.zip)
+`v116.16.13`|2024/03/08|[Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.13-full.nupkg)|[macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.13.zip)|[macOS_RAM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.13.zip)
+`v116.16.12`|2024/02/23|[Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.12-full.nupkg)|[macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.12.zip)|[macOS_RAM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.12.zip)
+`v116.16.10`|2024/02/15|[Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.10-full.nupkg)|[macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.10.zip)|[macOS_RAM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.10.zip)
+`v116.16.9`|2024/02/13||[macOS(96.00MB)](https://desktop.figma.com/mac/Figma-116.16.9.zip)|[macOS_RAM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.9.zip)
+`v116.15.15`|2024/01/23|[Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.15-full.nupkg)|[macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.15.zip)|[macOS_RAM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.15.zip)
 `v116.15.4`|2023/11/28|[Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.4-full.nupkg)|[macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.4.zip)|[macOS_RAM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.4.zip)
 `v116.14.9`|2023/11/21|[Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.9-full.nupkg)|[macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.9.zip)|[macOS_RAM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.9.zip)
 `v116.14.7`|2023/10/26|[Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.7-full.nupkg)|[macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.7.zip)|[macOS_RAM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.7.zip)

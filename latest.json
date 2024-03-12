@@ -1,20 +1,20 @@
 {
     "Windows": {
-        "ver": "116.15.4",
-        "date": "2023/11/28",
-        "url": "https://desktop.figma.com/win/Figma-116.15.4-full.nupkg",
-        "title": "[Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.4-full.nupkg)"
+        "ver": "116.17.9",
+        "date": "2024/03/08",
+        "url": "https://desktop.figma.com/win/Figma-116.17.9-full.nupkg",
+        "title": "[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.9-full.nupkg)"
     },
     "macOS": {
-        "ver": "116.15.4",
-        "date": "2023/11/28",
-        "url": "https://desktop.figma.com/mac/Figma-116.15.4.zip",
-        "title": "[macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.4.zip)"
+        "ver": "116.17.9",
+        "date": "2024/03/08",
+        "url": "https://desktop.figma.com/mac/Figma-116.17.9.zip",
+        "title": "[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.9.zip)"
     },
     "macOS_ARM": {
-        "ver": "116.15.4",
-        "date": "2023/11/28",
-        "url": "https://desktop.figma.com/mac-arm/Figma-116.15.4.zip",
-        "title": "[macOS_ARM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.4.zip)"
+        "ver": "116.17.9",
+        "date": "2024/03/08",
+        "url": "https://desktop.figma.com/mac-arm/Figma-116.17.9.zip",
+        "title": "[macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.9.zip)"
     }
 }
