@@ -2,7 +2,7 @@
     "name": "get-figma-donwload",
     "version": "1.0.0",
     "scripts": {
-        "build": "npm run scan && npm run doc",
+        "build": "npm run scan && npm run merge && npm run doc",
         "scan": "bun ./src/scan.js",
         "merge": "bun ./src/merge.js",
         "genUrls": "bun ./src/genUrls.js",
