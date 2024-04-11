@@ -6,9 +6,9 @@
 
 平台|版本|日期|地址
 ---|---|---|---
-[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.11-full.nupkg)|116.17.11|2024/03/22|https://desktop.figma.com/win/Figma-116.17.11-full.nupkg
-[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.11.zip)|116.17.11|2024/03/22|https://desktop.figma.com/mac/Figma-116.17.11.zip
-[macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.11.zip)|116.17.11|2024/03/22|https://desktop.figma.com/mac-arm/Figma-116.17.11.zip
+[Windows(104.09MB)](https://desktop.figma.com/win/Figma-116.18.4-full.nupkg)|116.18.4|2024/04/11|https://desktop.figma.com/win/Figma-116.18.4-full.nupkg
+[macOS(101.76MB)](https://desktop.figma.com/mac/Figma-116.18.4.zip)|116.18.4|2024/04/11|https://desktop.figma.com/mac/Figma-116.18.4.zip
+[macOS_ARM(95.37MB)](https://desktop.figma.com/mac-arm/Figma-116.18.4.zip)|116.18.4|2024/04/11|https://desktop.figma.com/mac-arm/Figma-116.18.4.zip
 
 可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
@@ -19,6 +19,7 @@ Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添�
 
 版本|日期|Windows|macOS|macOS_ARM(苹果芯片)
 ---|---|---|---|---
+`v116.18.4`|2024/04/11|[Windows(104.09MB)](https://desktop.figma.com/win/Figma-116.18.4-full.nupkg)|[macOS(101.76MB)](https://desktop.figma.com/mac/Figma-116.18.4.zip)|[macOS_RAM(95.37MB)](https://desktop.figma.com/mac-arm/Figma-116.18.4.zip)
 `v116.17.11`|2024/03/22|[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.11-full.nupkg)|[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.11.zip)|[macOS_RAM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.11.zip)
 `v116.17.10`|2024/03/13|[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.10-full.nupkg)|[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.10.zip)|[macOS_RAM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.10.zip)
 `v116.17.9`|2024/03/08|[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.9-full.nupkg)|[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.9.zip)|[macOS_RAM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.9.zip)
