@@ -1303,6 +1303,30 @@
             "type": "Windows",
             "size": 110668363,
             "date": "2024-06-24T20:50:48.000Z"
+        },
+        {
+            "ver": "124.2.8",
+            "url": "https://desktop.figma.com/win/Figma-124.2.8-full.nupkg",
+            "fileName": "Figma-124.2.8.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 110661952,
+            "date": "2024-07-11T15:55:46.000Z"
+        },
+        {
+            "ver": "124.2.9",
+            "url": "https://desktop.figma.com/win/Figma-124.2.9-full.nupkg",
+            "fileName": "Figma-124.2.9.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 110669486,
+            "date": "2024-08-12T20:54:30.000Z"
+        },
+        {
+            "ver": "124.3.1",
+            "url": "https://desktop.figma.com/win/Figma-124.3.1-full.nupkg",
+            "fileName": "Figma-124.3.1.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 111201678,
+            "date": "2024-08-12T20:54:24.000Z"
         }
     ],
     "macOS": [
@@ -2881,6 +2905,30 @@
             "type": "macOS",
             "size": 108828185,
             "date": "2024-06-24T20:50:07.000Z"
+        },
+        {
+            "ver": "124.2.8",
+            "url": "https://desktop.figma.com/mac/Figma-124.2.8.zip",
+            "fileName": "Figma-124.2.8.MacOS.zip",
+            "type": "macOS",
+            "size": 108822565,
+            "date": "2024-07-11T15:54:36.000Z"
+        },
+        {
+            "ver": "124.2.9",
+            "url": "https://desktop.figma.com/mac/Figma-124.2.9.zip",
+            "fileName": "Figma-124.2.9.MacOS.zip",
+            "type": "macOS",
+            "size": 108832865,
+            "date": "2024-08-12T20:52:59.000Z"
+        },
+        {
+            "ver": "124.3.1",
+            "url": "https://desktop.figma.com/mac/Figma-124.3.1.zip",
+            "fileName": "Figma-124.3.1.MacOS.zip",
+            "type": "macOS",
+            "size": 110040464,
+            "date": "2024-08-12T20:52:53.000Z"
         }
     ],
     "macOS_ARM": [
@@ -3427,6 +3475,30 @@
             "type": "macOS_ARM",
             "size": 101844475,
             "date": "2024-06-24T20:49:49.000Z"
+        },
+        {
+            "ver": "124.2.8",
+            "url": "https://desktop.figma.com/mac-arm/Figma-124.2.8.zip",
+            "fileName": "Figma-124.2.8.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 101836348,
+            "date": "2024-07-11T15:54:06.000Z"
+        },
+        {
+            "ver": "124.2.9",
+            "url": "https://desktop.figma.com/mac-arm/Figma-124.2.9.zip",
+            "fileName": "Figma-124.2.9.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 101839335,
+            "date": "2024-08-08T16:49:19.000Z"
+        },
+        {
+            "ver": "124.3.1",
+            "url": "https://desktop.figma.com/mac-arm/Figma-124.3.1.zip",
+            "fileName": "Figma-124.3.1.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 102663690,
+            "date": "2024-08-12T20:52:26.000Z"
         }
     ]
 }
