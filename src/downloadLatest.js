@@ -6,16 +6,17 @@ import LatestInfo from "../latest.json" with { type: 'json' };
 import axios from "axios";
 import fs from "fs";
 
-
- 
-if(!fs.existsSync('./dist/platform')){
-  fs.mkdirSync('./dist/platform', { recursive: true });
-}
-
 for (const platform in LatestInfo) {
   const { url } = LatestInfo[platform];
-  const filePath = `./dist/platform/${platform}.zip`;
+  const filePath = `./dist/${platform}/${platform}.zip`;
+
+
+  if(!fs.existsSync(`./dist/${platform}`)){
+    fs.mkdirSync(`./dist/${platform}`, { recursive: true });
+  }
+
   const writer = fs.createWriteStream(filePath);
+
 
   const response = await axios({
     url,
