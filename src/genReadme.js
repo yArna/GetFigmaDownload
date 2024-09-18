@@ -58,7 +58,7 @@ function resultToMdTable(versionsResultMap, lastVesions) {
                 dayjs(date).format("YYYY/MM/DD"),
                 file_windows ? `[Windows(${readableSize(file_windows.size)})](${file_windows.url})` : "",
                 file_macOS ? `[macOS(${readableSize(file_macOS.size)})](${file_macOS.url})` : "",
-                file_macOS_ARM ? `[macOS_RAM(${readableSize(file_macOS_ARM.size)})](${file_macOS_ARM.url})` : "",
+                file_macOS_ARM ? `[macOS_ARM(${readableSize(file_macOS_ARM.size)})](${file_macOS_ARM.url})` : "",
             ].join("|")
         })
         .join("\n")
