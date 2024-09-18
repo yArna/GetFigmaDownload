@@ -2945,6 +2945,14 @@
             "type": "macOS",
             "size": 110040344,
             "date": "2024-08-22T21:53:49.000Z"
+        },
+        {
+            "ver": "124.3.3",
+            "url": "https://desktop.figma.com/mac/Figma-124.3.3.zip",
+            "fileName": "Figma-124.3.3.MacOS.zip",
+            "type": "macOS",
+            "size": 109703652,
+            "date": "2024-09-16T21:17:56.000Z"
         }
     ],
     "macOS_ARM": [
@@ -3523,6 +3531,14 @@
             "type": "macOS_ARM",
             "size": 102664269,
             "date": "2024-08-22T21:53:13.000Z"
+        },
+        {
+            "ver": "124.3.3",
+            "url": "https://desktop.figma.com/mac-arm/Figma-124.3.3.zip",
+            "fileName": "Figma-124.3.3.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 102327331,
+            "date": "2024-09-16T21:17:39.000Z"
         }
     ]
 }

@@ -6,9 +6,9 @@
 
 平台|版本|日期|地址
 ---|---|---|---
+[macOS(104.62MB)](https://desktop.figma.com/mac/Figma-124.3.3.zip)|124.3.3|2024/09/17|https://desktop.figma.com/mac/Figma-124.3.3.zip
+[macOS_ARM(97.59MB)](https://desktop.figma.com/mac-arm/Figma-124.3.3.zip)|124.3.3|2024/09/17|https://desktop.figma.com/mac-arm/Figma-124.3.3.zip
 [Windows(106.05MB)](https://desktop.figma.com/win/Figma-124.3.2-full.nupkg)|124.3.2|2024/08/23|https://desktop.figma.com/win/Figma-124.3.2-full.nupkg
-[macOS(104.94MB)](https://desktop.figma.com/mac/Figma-124.3.2.zip)|124.3.2|2024/08/23|https://desktop.figma.com/mac/Figma-124.3.2.zip
-[macOS_ARM(97.91MB)](https://desktop.figma.com/mac-arm/Figma-124.3.2.zip)|124.3.2|2024/08/23|https://desktop.figma.com/mac-arm/Figma-124.3.2.zip
 
 可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
@@ -19,6 +19,7 @@ Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添�
 
 版本|日期|Windows|macOS|macOS_ARM(苹果芯片)
 ---|---|---|---|---
+`v124.3.3`|2024/09/17||[macOS(104.62MB)](https://desktop.figma.com/mac/Figma-124.3.3.zip)|[macOS_RAM(97.59MB)](https://desktop.figma.com/mac-arm/Figma-124.3.3.zip)
 `v124.3.2`|2024/08/23|[Windows(106.05MB)](https://desktop.figma.com/win/Figma-124.3.2-full.nupkg)|[macOS(104.94MB)](https://desktop.figma.com/mac/Figma-124.3.2.zip)|[macOS_RAM(97.91MB)](https://desktop.figma.com/mac-arm/Figma-124.3.2.zip)
 `v124.3.1`|2024/08/13|[Windows(106.05MB)](https://desktop.figma.com/win/Figma-124.3.1-full.nupkg)|[macOS(104.94MB)](https://desktop.figma.com/mac/Figma-124.3.1.zip)|[macOS_RAM(97.91MB)](https://desktop.figma.com/mac-arm/Figma-124.3.1.zip)
 `v124.2.9`|2024/08/13|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.2.9-full.nupkg)|[macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.2.9.zip)|[macOS_RAM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.2.9.zip)

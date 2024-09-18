@@ -14,6 +14,7 @@ for (const platform in LatestInfo) {
   if(!fs.existsSync(`./dist/${platform}`)){
     fs.mkdirSync(`./dist/${platform}`, { recursive: true });
   }
+  
 
   const writer = fs.createWriteStream(filePath);
 

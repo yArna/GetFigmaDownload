@@ -7,7 +7,7 @@
     "merge": "bun ./src/merge.js",
     "genUrls": "bun ./src/genUrls.js",
     "doc": "node ./src/genReadme.js",
-    "download": "node ./src/downloadLatest.js"
+    "download": "rm -rf ./dist && node ./src/downloadLatest.js"
   },
   "license": "MIT",
   "type": "module",
