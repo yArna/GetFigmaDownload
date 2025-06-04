@@ -1,20 +1,20 @@
 {
     "Windows": {
-        "ver": "125.1.5",
-        "date": "2025/02/25",
-        "url": "https://desktop.figma.com/win/Figma-125.1.5-full.nupkg",
-        "title": "[Windows(111.80MB)](https://desktop.figma.com/win/Figma-125.1.5-full.nupkg)"
+        "ver": "125.4.9",
+        "date": "2025/05/16",
+        "url": "https://desktop.figma.com/win/Figma-125.4.9-full.nupkg",
+        "title": "[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.9-full.nupkg)"
     },
     "macOS": {
-        "ver": "125.1.5",
-        "date": "2025/02/25",
-        "url": "https://desktop.figma.com/mac/Figma-125.1.5.zip",
-        "title": "[macOS(107.10MB)](https://desktop.figma.com/mac/Figma-125.1.5.zip)"
+        "ver": "125.4.9",
+        "date": "2025/05/16",
+        "url": "https://desktop.figma.com/mac/Figma-125.4.9.zip",
+        "title": "[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.9.zip)"
     },
     "macOS_ARM": {
-        "ver": "125.1.5",
-        "date": "2025/02/25",
-        "url": "https://desktop.figma.com/mac-arm/Figma-125.1.5.zip",
-        "title": "[macOS_ARM(100.93MB)](https://desktop.figma.com/mac-arm/Figma-125.1.5.zip)"
+        "ver": "125.4.9",
+        "date": "2025/05/16",
+        "url": "https://desktop.figma.com/mac-arm/Figma-125.4.9.zip",
+        "title": "[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.9.zip)"
     }
 }

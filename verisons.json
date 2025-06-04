@@ -1423,6 +1423,62 @@
             "type": "Windows",
             "size": 117233860,
             "date": "2025-02-24T21:54:30.000Z"
+        },
+        {
+            "ver": "125.2.3",
+            "url": "https://desktop.figma.com/win/Figma-125.2.3-full.nupkg",
+            "fileName": "Figma-125.2.3.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 118000465,
+            "date": "2025-04-16T20:26:33.000Z"
+        },
+        {
+            "ver": "125.3.5",
+            "url": "https://desktop.figma.com/win/Figma-125.3.5-full.nupkg",
+            "fileName": "Figma-125.3.5.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 118212227,
+            "date": "2025-04-10T21:41:08.000Z"
+        },
+        {
+            "ver": "125.3.6",
+            "url": "https://desktop.figma.com/win/Figma-125.3.6-full.nupkg",
+            "fileName": "Figma-125.3.6.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 118213881,
+            "date": "2025-05-01T21:31:19.000Z"
+        },
+        {
+            "ver": "125.4.6",
+            "url": "https://desktop.figma.com/win/Figma-125.4.6-full.nupkg",
+            "fileName": "Figma-125.4.6.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 118447300,
+            "date": "2025-04-29T00:20:22.000Z"
+        },
+        {
+            "ver": "125.4.7",
+            "url": "https://desktop.figma.com/win/Figma-125.4.7-full.nupkg",
+            "fileName": "Figma-125.4.7.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 118448020,
+            "date": "2025-05-02T17:45:01.000Z"
+        },
+        {
+            "ver": "125.4.8",
+            "url": "https://desktop.figma.com/win/Figma-125.4.8-full.nupkg",
+            "fileName": "Figma-125.4.8.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 118447825,
+            "date": "2025-05-06T17:24:18.000Z"
+        },
+        {
+            "ver": "125.4.9",
+            "url": "https://desktop.figma.com/win/Figma-125.4.9-full.nupkg",
+            "fileName": "Figma-125.4.9.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 118448242,
+            "date": "2025-05-15T22:09:44.000Z"
         }
     ],
     "macOS": [
@@ -3129,6 +3185,62 @@
             "type": "macOS",
             "size": 112306425,
             "date": "2025-02-24T21:56:04.000Z"
+        },
+        {
+            "ver": "125.2.3",
+            "url": "https://desktop.figma.com/mac/Figma-125.2.3.zip",
+            "fileName": "Figma-125.2.3.MacOS.zip",
+            "type": "macOS",
+            "size": 112466483,
+            "date": "2025-04-16T20:24:46.000Z"
+        },
+        {
+            "ver": "125.3.5",
+            "url": "https://desktop.figma.com/mac/Figma-125.3.5.zip",
+            "fileName": "Figma-125.3.5.MacOS.zip",
+            "type": "macOS",
+            "size": 112645039,
+            "date": "2025-04-10T21:38:00.000Z"
+        },
+        {
+            "ver": "125.3.6",
+            "url": "https://desktop.figma.com/mac/Figma-125.3.6.zip",
+            "fileName": "Figma-125.3.6.MacOS.zip",
+            "type": "macOS",
+            "size": 112644479,
+            "date": "2025-05-01T21:28:41.000Z"
+        },
+        {
+            "ver": "125.4.6",
+            "url": "https://desktop.figma.com/mac/Figma-125.4.6.zip",
+            "fileName": "Figma-125.4.6.MacOS.zip",
+            "type": "macOS",
+            "size": 112887968,
+            "date": "2025-04-29T00:18:29.000Z"
+        },
+        {
+            "ver": "125.4.7",
+            "url": "https://desktop.figma.com/mac/Figma-125.4.7.zip",
+            "fileName": "Figma-125.4.7.MacOS.zip",
+            "type": "macOS",
+            "size": 112889764,
+            "date": "2025-05-02T17:42:16.000Z"
+        },
+        {
+            "ver": "125.4.8",
+            "url": "https://desktop.figma.com/mac/Figma-125.4.8.zip",
+            "fileName": "Figma-125.4.8.MacOS.zip",
+            "type": "macOS",
+            "size": 112889298,
+            "date": "2025-05-06T17:22:15.000Z"
+        },
+        {
+            "ver": "125.4.9",
+            "url": "https://desktop.figma.com/mac/Figma-125.4.9.zip",
+            "fileName": "Figma-125.4.9.MacOS.zip",
+            "type": "macOS",
+            "size": 112892252,
+            "date": "2025-05-15T22:10:02.000Z"
         }
     ],
     "macOS_ARM": [
@@ -3803,6 +3915,62 @@
             "type": "macOS_ARM",
             "size": 105833109,
             "date": "2025-02-24T21:56:27.000Z"
+        },
+        {
+            "ver": "125.2.3",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.2.3.zip",
+            "fileName": "Figma-125.2.3.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 105777324,
+            "date": "2025-04-16T20:28:05.000Z"
+        },
+        {
+            "ver": "125.3.5",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.3.5.zip",
+            "fileName": "Figma-125.3.5.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 105810827,
+            "date": "2025-04-10T21:39:22.000Z"
+        },
+        {
+            "ver": "125.3.6",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.3.6.zip",
+            "fileName": "Figma-125.3.6.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 105812003,
+            "date": "2025-05-01T21:27:02.000Z"
+        },
+        {
+            "ver": "125.4.6",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.4.6.zip",
+            "fileName": "Figma-125.4.6.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 106047885,
+            "date": "2025-04-29T00:17:36.000Z"
+        },
+        {
+            "ver": "125.4.7",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.4.7.zip",
+            "fileName": "Figma-125.4.7.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 106049640,
+            "date": "2025-05-02T17:41:48.000Z"
+        },
+        {
+            "ver": "125.4.8",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.4.8.zip",
+            "fileName": "Figma-125.4.8.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 106049706,
+            "date": "2025-05-06T17:21:50.000Z"
+        },
+        {
+            "ver": "125.4.9",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.4.9.zip",
+            "fileName": "Figma-125.4.9.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 106051927,
+            "date": "2025-05-15T22:10:43.000Z"
         }
     ]
 }
