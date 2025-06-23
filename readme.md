@@ -6,9 +6,9 @@
 
 平台|版本|日期|地址
 ---|---|---|---
-[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.9-full.nupkg)|125.4.9|2025/05/16|https://desktop.figma.com/win/Figma-125.4.9-full.nupkg
-[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.9.zip)|125.4.9|2025/05/16|https://desktop.figma.com/mac/Figma-125.4.9.zip
-[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.9.zip)|125.4.9|2025/05/16|https://desktop.figma.com/mac-arm/Figma-125.4.9.zip
+[Windows(112.97MB)](https://desktop.figma.com/win/Figma-125.5.6-full.nupkg)|125.5.6|2025/06/18|https://desktop.figma.com/win/Figma-125.5.6-full.nupkg
+[macOS(107.67MB)](https://desktop.figma.com/mac/Figma-125.5.6.zip)|125.5.6|2025/06/18|https://desktop.figma.com/mac/Figma-125.5.6.zip
+[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.5.6.zip)|125.5.6|2025/06/17|https://desktop.figma.com/mac-arm/Figma-125.5.6.zip
 
 可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
@@ -19,6 +19,7 @@ Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添�
 
 版本|日期|Windows|macOS|macOS_ARM(苹果芯片)
 ---|---|---|---|---
+`v125.5.6`|2025/06/18|[Windows(112.97MB)](https://desktop.figma.com/win/Figma-125.5.6-full.nupkg)|[macOS(107.67MB)](https://desktop.figma.com/mac/Figma-125.5.6.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.5.6.zip)
 `v125.4.9`|2025/05/16|[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.9-full.nupkg)|[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.9.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.9.zip)
 `v125.4.8`|2025/05/07|[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.8-full.nupkg)|[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.8.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.8.zip)
 `v125.4.7`|2025/05/03|[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.7-full.nupkg)|[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.7.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.7.zip)
