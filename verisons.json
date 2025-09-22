@@ -1511,6 +1511,22 @@
             "type": "Windows",
             "size": 124179589,
             "date": "2025-08-25T17:33:23.000Z"
+        },
+        {
+            "ver": "125.8.6",
+            "url": "https://desktop.figma.com/win/Figma-125.8.6-full.nupkg",
+            "fileName": "Figma-125.8.6.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 126221418,
+            "date": "2025-09-17T18:03:55.000Z"
+        },
+        {
+            "ver": "125.8.8",
+            "url": "https://desktop.figma.com/win/Figma-125.8.8-full.nupkg",
+            "fileName": "Figma-125.8.8.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 125641155,
+            "date": "2025-09-18T16:58:31.000Z"
         }
     ],
     "macOS": [
@@ -3305,6 +3321,22 @@
             "type": "macOS",
             "size": 121532990,
             "date": "2025-08-25T17:32:31.000Z"
+        },
+        {
+            "ver": "125.8.6",
+            "url": "https://desktop.figma.com/mac/Figma-125.8.6.zip",
+            "fileName": "Figma-125.8.6.MacOS.zip",
+            "type": "macOS",
+            "size": 124932216,
+            "date": "2025-09-17T18:03:07.000Z"
+        },
+        {
+            "ver": "125.8.8",
+            "url": "https://desktop.figma.com/mac/Figma-125.8.8.zip",
+            "fileName": "Figma-125.8.8.MacOS.zip",
+            "type": "macOS",
+            "size": 124107769,
+            "date": "2025-09-18T17:00:00.000Z"
         }
     ],
     "macOS_ARM": [
@@ -4067,6 +4099,22 @@
             "type": "macOS_ARM",
             "size": 114810812,
             "date": "2025-08-25T17:32:54.000Z"
+        },
+        {
+            "ver": "125.8.6",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.8.6.zip",
+            "fileName": "Figma-125.8.6.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 117819554,
+            "date": "2025-09-17T18:03:31.000Z"
+        },
+        {
+            "ver": "125.8.8",
+            "url": "https://desktop.figma.com/mac-arm/Figma-125.8.8.zip",
+            "fileName": "Figma-125.8.8.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 117340954,
+            "date": "2025-09-18T17:00:36.000Z"
         }
     ]
 }
