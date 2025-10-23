@@ -1,4 +1,4 @@
-dist
+/dist
 .idea
 node_modules
 __debug__
@@ -7,6 +7,4 @@ yarn-error.log
 RefreshAndPredload.log
 plugin*.zip
 
-# Web build artifacts
-web/dist
-web/node_modules
+ 
