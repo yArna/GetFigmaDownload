@@ -242,25 +242,86 @@ class FigmaAnalyzerApp {
                     x: {
                         title: {
                             display: true,
-                            text: '时间'
+                            text: '时间轴',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            },
+                            color: '#374151'
+                        },
+                        grid: {
+                            color: '#f3f4f6',
+                            lineWidth: 1
+                        },
+                        ticks: {
+                            color: '#6b7280',
+                            font: {
+                                size: 12
+                            },
+                            maxTicksLimit: 12,
+                            callback: function(value, index, ticks) {
+                                const label = this.getLabelForValue(value);
+                                // 只显示年份变化的月份或每隔几个月显示一次
+                                if (index % Math.ceil(ticks.length / 8) === 0) {
+                                    return label;
+                                }
+                                return '';
+                            }
                         }
                     },
                     y: {
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: '发布数量'
+                            text: '版本发布数量',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            },
+                            color: '#374151'
+                        },
+                        grid: {
+                            color: '#f3f4f6',
+                            lineWidth: 1
+                        },
+                        ticks: {
+                            color: '#6b7280',
+                            font: {
+                                size: 12
+                            },
+                            stepSize: 1,
+                            callback: function(value) {
+                                return Number.isInteger(value) ? value : '';
+                            }
                         }
                     }
                 },
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'top'
+                        position: 'top',
+                        labels: {
+                            font: {
+                                size: 13
+                            },
+                            color: '#374151',
+                            usePointStyle: true,
+                            padding: 20
+                        }
                     },
                     tooltip: {
                         mode: 'index',
-                        intersect: false
+                        intersect: false,
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleFont: {
+                            size: 14,
+                            weight: 'bold'
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        cornerRadius: 8,
+                        displayColors: true
                     }
                 },
                 interaction: {
@@ -281,20 +342,85 @@ class FigmaAnalyzerApp {
                 datasets: [{
                     label: '版本发布数量',
                     data: [],
-                    backgroundColor: 'rgba(59, 130, 246, 0.5)',
+                    backgroundColor: 'rgba(59, 130, 246, 0.6)',
                     borderColor: 'rgb(59, 130, 246)',
-                    borderWidth: 1
+                    borderWidth: 2,
+                    borderRadius: 4,
+                    borderSkipped: false
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: '月份',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            },
+                            color: '#374151'
+                        },
+                        grid: {
+                            display: false
+                        },
+                        ticks: {
+                            color: '#6b7280',
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
                     y: {
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: '发布数量'
+                            text: '发布数量',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            },
+                            color: '#374151'
+                        },
+                        grid: {
+                            color: '#f3f4f6',
+                            lineWidth: 1
+                        },
+                        ticks: {
+                            color: '#6b7280',
+                            font: {
+                                size: 12
+                            },
+                            stepSize: 1,
+                            callback: function(value) {
+                                return Number.isInteger(value) ? value : '';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleFont: {
+                            size: 14,
+                            weight: 'bold'
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        cornerRadius: 8,
+                        callbacks: {
+                            title: function(context) {
+                                return context[0].label;
+                            },
+                            label: function(context) {
+                                return `发布数量: ${context.parsed.y}`;
+                            }
                         }
                     }
                 }
@@ -307,7 +433,7 @@ class FigmaAnalyzerApp {
         this.intervalChart = new Chart(ctx, {
             type: 'doughnut',
             data: {
-                labels: ['1天', '2-7天', '8-14天', '15-30天', '31-60天', '60天以上'],
+                labels: ['≤1天', '2-7天', '8-14天', '15-30天', '31-60天', '>60天'],
                 datasets: [{
                     data: [],
                     backgroundColor: [
@@ -317,15 +443,70 @@ class FigmaAnalyzerApp {
                         'rgb(59, 130, 246)',
                         'rgb(147, 51, 234)',
                         'rgb(107, 114, 128)'
-                    ]
+                    ],
+                    borderWidth: 2,
+                    borderColor: '#ffffff',
+                    hoverBorderWidth: 3,
+                    hoverBorderColor: '#ffffff'
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
+                cutout: '50%',
                 plugins: {
                     legend: {
-                        position: 'right'
+                        position: 'right',
+                        labels: {
+                            font: {
+                                size: 13
+                            },
+                            color: '#374151',
+                            usePointStyle: true,
+                            padding: 15,
+                            generateLabels: function(chart) {
+                                const data = chart.data;
+                                if (data.labels.length && data.datasets.length) {
+                                    const dataset = data.datasets[0];
+                                    const total = dataset.data.reduce((a, b) => a + b, 0);
+                                    
+                                    return data.labels.map((label, i) => {
+                                        const value = dataset.data[i];
+                                        const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : '0.0';
+                                        
+                                        return {
+                                            text: `${label}: ${value} (${percentage}%)`,
+                                            fillStyle: dataset.backgroundColor[i],
+                                            strokeStyle: dataset.borderColor,
+                                            lineWidth: dataset.borderWidth,
+                                            hidden: false,
+                                            index: i
+                                        };
+                                    });
+                                }
+                                return [];
+                            }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleFont: {
+                            size: 14,
+                            weight: 'bold'
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        cornerRadius: 8,
+                        callbacks: {
+                            label: function(context) {
+                                const label = context.label;
+                                const value = context.parsed;
+                                const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                const percentage = total > 0 ? ((value / total) * 100).toFixed(1) : '0.0';
+                                return `${label}: ${value} 次 (${percentage}%)`;
+                            }
+                        }
                     }
                 }
             }
@@ -344,18 +525,96 @@ class FigmaAnalyzerApp {
                     borderColor: 'rgb(139, 92, 246)',
                     backgroundColor: 'rgba(139, 92, 246, 0.1)',
                     fill: true,
-                    tension: 0.4
+                    tension: 0.4,
+                    borderWidth: 3,
+                    pointBackgroundColor: 'rgb(139, 92, 246)',
+                    pointBorderColor: '#ffffff',
+                    pointBorderWidth: 2,
+                    pointRadius: 6,
+                    pointHoverRadius: 8,
+                    pointHoverBackgroundColor: 'rgb(139, 92, 246)',
+                    pointHoverBorderColor: '#ffffff',
+                    pointHoverBorderWidth: 3
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: '年份',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            },
+                            color: '#374151'
+                        },
+                        grid: {
+                            color: '#f3f4f6',
+                            lineWidth: 1
+                        },
+                        ticks: {
+                            color: '#6b7280',
+                            font: {
+                                size: 12
+                            },
+                            callback: function(value, index, ticks) {
+                                // 确保年份显示为整数
+                                const year = this.getLabelForValue(value);
+                                return Number.isInteger(Number(year)) ? year : '';
+                            }
+                        }
+                    },
                     y: {
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: '发布数量'
+                            text: '发布数量',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            },
+                            color: '#374151'
+                        },
+                        grid: {
+                            color: '#f3f4f6',
+                            lineWidth: 1
+                        },
+                        ticks: {
+                            color: '#6b7280',
+                            font: {
+                                size: 12
+                            },
+                            stepSize: 1,
+                            callback: function(value) {
+                                return Number.isInteger(value) ? value : '';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleFont: {
+                            size: 14,
+                            weight: 'bold'
+                        },
+                        bodyFont: {
+                            size: 13
+                        },
+                        cornerRadius: 8,
+                        callbacks: {
+                            title: function(context) {
+                                return `${context[0].label}年`;
+                            },
+                            label: function(context) {
+                                return `发布数量: ${context.parsed.y}`;
+                            }
                         }
                     }
                 }
@@ -389,16 +648,16 @@ class FigmaAnalyzerApp {
         const platforms = ['Windows', 'macOS', 'macOS_ARM'];
         const platformColors = {
             'Windows': {
-                border: 'rgb(34, 197, 94)',      // 鲜绿色
-                background: 'rgba(34, 197, 94, 0.1)'
+                border: 'rgba(12, 0, 237, 0.8)',      // 鲜绿色
+                background: 'rgba(175, 173, 193, 0.1)'
             },
             'macOS': {
-                border: 'rgb(168, 85, 247)',     // 紫色
-                background: 'rgba(168, 85, 247, 0.1)'
+                border: 'rgba(249, 85, 48, 0.8)',     // 紫色
+                background: 'rgba(162, 48, 249, 0.1)'
             },
             'macOS_ARM': {
-                border: 'rgb(251, 146, 60)',     // 橙色
-                background: 'rgba(251, 146, 60, 0.1)'
+                border: 'rgba(251, 190, 60, 0.8)',     // 橙色
+                background: 'rgba(251, 210, 60, 0.1)'
             }
         };
 
@@ -644,7 +903,7 @@ class FigmaAnalyzerApp {
             const sortedByVersion = [...this.filteredVersions].sort((a, b) => this.compareVersions(b.ver, a.ver));
             const newestVersion = sortedByVersion[0].ver;
             const oldestVersion = sortedByVersion[sortedByVersion.length - 1].ver;
-            document.getElementById('downloadVersionRange').textContent = `${oldestVersion} - ${newestVersion}`;
+            document.getElementById('downloadVersionRange').textContent = `${newestVersion} → ${ oldestVersion}`;
         } else {
             document.getElementById('downloadVersionRange').textContent = '-';
         }
