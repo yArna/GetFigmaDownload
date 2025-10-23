@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "python3 -m http.server 3000",
-    "build": "./build.sh",
-    "preview": "cd dist && python3 -m http.server 3000"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -17,8 +17,10 @@
   },
   "dependencies": {
     "chart.js": "^4.4.0",
+    "chartjs-adapter-date-fns": "3.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "date-fns": "4.1.0",
     "tailwind-merge": "^2.0.0"
   }
 }
