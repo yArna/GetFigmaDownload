@@ -6,9 +6,9 @@
 
 平台|版本|日期|地址
 ---|---|---|---
-[Windows(119.82MB)](https://desktop.figma.com/win/Figma-125.8.8-full.nupkg)|125.8.8|2025/09/19|https://desktop.figma.com/win/Figma-125.8.8-full.nupkg
-[macOS(118.36MB)](https://desktop.figma.com/mac/Figma-125.8.8.zip)|125.8.8|2025/09/19|https://desktop.figma.com/mac/Figma-125.8.8.zip
-[macOS_ARM(111.91MB)](https://desktop.figma.com/mac-arm/Figma-125.8.8.zip)|125.8.8|2025/09/19|https://desktop.figma.com/mac-arm/Figma-125.8.8.zip
+[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.10-full.nupkg)|125.9.10|2025/10/21|https://desktop.figma.com/win/Figma-125.9.10-full.nupkg
+[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.10.zip)|125.9.10|2025/10/17|https://desktop.figma.com/mac/Figma-125.9.10.zip
+[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.10.zip)|125.9.10|2025/10/17|https://desktop.figma.com/mac-arm/Figma-125.9.10.zip
 
 可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
@@ -19,6 +19,10 @@ Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添�
 
 版本|日期|Windows|macOS|macOS_ARM(苹果芯片)
 ---|---|---|---|---
+`v125.9.10`|2025/10/21|[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.10-full.nupkg)|[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.10.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.10.zip)
+`v125.9.9`|2025/10/10|[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.9-full.nupkg)|[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.9.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.9.zip)
+`v125.9.8`|2025/10/07|[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.8-full.nupkg)|[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.8.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.8.zip)
+`v125.8.9`|2025/10/17|[Windows(119.82MB)](https://desktop.figma.com/win/Figma-125.8.9-full.nupkg)|[macOS(118.36MB)](https://desktop.figma.com/mac/Figma-125.8.9.zip)|[macOS_ARM(111.91MB)](https://desktop.figma.com/mac-arm/Figma-125.8.9.zip)
 `v125.8.8`|2025/09/19|[Windows(119.82MB)](https://desktop.figma.com/win/Figma-125.8.8-full.nupkg)|[macOS(118.36MB)](https://desktop.figma.com/mac/Figma-125.8.8.zip)|[macOS_ARM(111.91MB)](https://desktop.figma.com/mac-arm/Figma-125.8.8.zip)
 `v125.8.6`|2025/09/18|[Windows(120.37MB)](https://desktop.figma.com/win/Figma-125.8.6-full.nupkg)|[macOS(119.14MB)](https://desktop.figma.com/mac/Figma-125.8.6.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.8.6.zip)
 `v125.7.5`|2025/08/26|[Windows(118.43MB)](https://desktop.figma.com/win/Figma-125.7.5-full.nupkg)|[macOS(115.90MB)](https://desktop.figma.com/mac/Figma-125.7.5.zip)|[macOS_ARM(109.49MB)](https://desktop.figma.com/mac-arm/Figma-125.7.5.zip)
