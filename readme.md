@@ -2,6 +2,8 @@
 
 有时候我们无法访问 Figma 官方网站，或者是需要的不是最新版本，此时你就可以从使用本工具获得版本
 
+
+
 ## 最新版本
 
 平台|版本|日期|地址
@@ -14,6 +16,11 @@
 
 ## nupkg 文件
 Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添加 `.zip` 后缀，然后用压缩工具解压，在其中的 `/lib/net45` 文件夹下就是 Figma 程序了，你可以把它放到任何目录下运行。
+
+
+## 分析 Figma 更新数据
+
+[https://yarna.github.io/GetFigmaDownload/web/dist/](https://yarna.github.io/GetFigmaDownload/web/dist/)
 
 ## 全部版本
 
