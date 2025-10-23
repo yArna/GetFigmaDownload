@@ -1,5 +1,5 @@
 import fs from "node:fs";
-let versionsAll = JSON.parse(fs.readFileSync("./verisons.json", "utf-8"));
+let versionsAll = JSON.parse(fs.readFileSync("./versions.json", "utf-8"));
 
 let urls = new Set();
 

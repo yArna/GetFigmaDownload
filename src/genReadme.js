@@ -3,14 +3,14 @@ import dayjs from "dayjs"
 import { compareVersions } from "compare-versions"
 
 let readmeBase = fs.readFileSync("./readme.base.md").toString()
-let verisons = JSON.parse(fs.readFileSync("./verisons.json").toString())
-let verisons_old = JSON.parse(fs.readFileSync("./verisons.old.json").toString())
+let versions = JSON.parse(fs.readFileSync("./versions.json").toString())
+let versions_old = JSON.parse(fs.readFileSync("./versions.old.json").toString())
 
 let versionsResultMap = {}
 let lastVersions = {}
 
-resolveVesions(verisons_old)
-resolveVesions(verisons)
+resolveVesions(versions_old)
+resolveVesions(versions)
 
 let tableMd =
     `版本|日期|Windows|macOS|macOS_ARM(苹果芯片)\n---|---|---|---|---\n` +
@@ -64,9 +64,9 @@ function resultToMdTable(versionsResultMap, lastVesions) {
         .join("\n")
 }
 
-function resolveVesions(verisons) {
-    for (const key in verisons) {
-        let list = verisons[key]
+function resolveVesions(versions) {
+    for (const key in versions) {
+        let list = versions[key]
         for (const item of list) {
             if (!versionsResultMap[item.ver]) versionsResultMap[item.ver] = {}
             versionsResultMap[item.ver][item.type] = item

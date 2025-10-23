@@ -6,3 +6,7 @@ yarn-error.log
 .DS_Store
 RefreshAndPredload.log
 plugin*.zip
+
+# Web build artifacts
+web/dist
+web/node_modules

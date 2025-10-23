@@ -4,7 +4,7 @@ import { versionCompare } from "fzz";
 
 //--------------------------
 // 扫描可用版本，指定最小到最大的版本范围（如 0 -> 120 ）
-// 结果保存到 verisons.json 中
+// 结果保存到 versions.json 中
 scan(125, 127);
 
 //--------------------------
@@ -81,5 +81,5 @@ async function checkUrl(url, ver, fileName, type, resultPool) {
 }
 
 function save(data) {
-  fs.writeFileSync("./verisons-last.json", JSON.stringify(data, null, 4));
+  fs.writeFileSync("./versions-last.json", JSON.stringify(data, null, 4));
 }
