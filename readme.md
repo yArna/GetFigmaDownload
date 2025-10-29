@@ -2,23 +2,27 @@
     <img src="icon.png" width="256" height="256" alt="Get Figma Download Icon"/>
 </p>
 
+
+
 # 获取 Figma 桌面客户端地址
 
 有时候我们无法访问 Figma 官方网站，或者是需要的不是最新版本，此时你就可以从使用本工具获得版本
 
+
+
 ## 最新版本
 
-| 平台                                                                         | 版本     | 日期       | 地址                                                    |
-| ---------------------------------------------------------------------------- | -------- | ---------- | ------------------------------------------------------- |
-| [Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.10-full.nupkg) | 125.9.10 | 2025/10/21 | https://desktop.figma.com/win/Figma-125.9.10-full.nupkg |
-| [macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.10.zip)          | 125.9.10 | 2025/10/17 | https://desktop.figma.com/mac/Figma-125.9.10.zip        |
-| [macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.10.zip)  | 125.9.10 | 2025/10/17 | https://desktop.figma.com/mac-arm/Figma-125.9.10.zip    |
+平台|版本|日期|地址
+---|---|---|---
+[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.10-full.nupkg)|125.9.10|2025/10/21|https://desktop.figma.com/win/Figma-125.9.10-full.nupkg
+[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.10.zip)|125.9.10|2025/10/17|https://desktop.figma.com/mac/Figma-125.9.10.zip
+[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.10.zip)|125.9.10|2025/10/17|https://desktop.figma.com/mac-arm/Figma-125.9.10.zip
 
 可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
 ## nupkg 文件
-
 Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添加 `.zip` 后缀，然后用压缩工具解压，在其中的 `/lib/net45` 文件夹下就是 Figma 程序了，你可以把它放到任何目录下运行。
+
 
 ## 分析 Figma 更新数据
 
@@ -26,247 +30,247 @@ Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添�
 
 ## 全部版本
 
-| 版本         | 日期       | Windows                                                                       | macOS                                                                | macOS_ARM(苹果芯片)                                                         |
-| ------------ | ---------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| `v125.9.10`  | 2025/10/21 | [Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.10-full.nupkg)  | [macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.10.zip)  | [macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.10.zip) |
-| `v125.9.9`   | 2025/10/10 | [Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.9-full.nupkg)   | [macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.9.zip)   | [macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.9.zip)  |
-| `v125.9.8`   | 2025/10/07 | [Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.8-full.nupkg)   | [macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.8.zip)   | [macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.8.zip)  |
-| `v125.8.9`   | 2025/10/17 | [Windows(119.82MB)](https://desktop.figma.com/win/Figma-125.8.9-full.nupkg)   | [macOS(118.36MB)](https://desktop.figma.com/mac/Figma-125.8.9.zip)   | [macOS_ARM(111.91MB)](https://desktop.figma.com/mac-arm/Figma-125.8.9.zip)  |
-| `v125.8.8`   | 2025/09/19 | [Windows(119.82MB)](https://desktop.figma.com/win/Figma-125.8.8-full.nupkg)   | [macOS(118.36MB)](https://desktop.figma.com/mac/Figma-125.8.8.zip)   | [macOS_ARM(111.91MB)](https://desktop.figma.com/mac-arm/Figma-125.8.8.zip)  |
-| `v125.8.6`   | 2025/09/18 | [Windows(120.37MB)](https://desktop.figma.com/win/Figma-125.8.6-full.nupkg)   | [macOS(119.14MB)](https://desktop.figma.com/mac/Figma-125.8.6.zip)   | [macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.8.6.zip)  |
-| `v125.7.5`   | 2025/08/26 | [Windows(118.43MB)](https://desktop.figma.com/win/Figma-125.7.5-full.nupkg)   | [macOS(115.90MB)](https://desktop.figma.com/mac/Figma-125.7.5.zip)   | [macOS_ARM(109.49MB)](https://desktop.figma.com/mac-arm/Figma-125.7.5.zip)  |
-| `v125.6.5`   | 2025/08/19 | [Windows(117.83MB)](https://desktop.figma.com/win/Figma-125.6.5-full.nupkg)   | [macOS(115.84MB)](https://desktop.figma.com/mac/Figma-125.6.5.zip)   | [macOS_ARM(109.44MB)](https://desktop.figma.com/mac-arm/Figma-125.6.5.zip)  |
-| `v125.6.4`   | 2025/07/08 | [Windows(117.83MB)](https://desktop.figma.com/win/Figma-125.6.4-full.nupkg)   | [macOS(115.84MB)](https://desktop.figma.com/mac/Figma-125.6.4.zip)   | [macOS_ARM(109.45MB)](https://desktop.figma.com/mac-arm/Figma-125.6.4.zip)  |
-| `v125.5.6`   | 2025/06/18 | [Windows(112.97MB)](https://desktop.figma.com/win/Figma-125.5.6-full.nupkg)   | [macOS(107.67MB)](https://desktop.figma.com/mac/Figma-125.5.6.zip)   | [macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.5.6.zip)  |
-| `v125.4.9`   | 2025/05/16 | [Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.9-full.nupkg)   | [macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.9.zip)   | [macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.9.zip)  |
-| `v125.4.8`   | 2025/05/07 | [Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.8-full.nupkg)   | [macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.8.zip)   | [macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.8.zip)  |
-| `v125.4.7`   | 2025/05/03 | [Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.7-full.nupkg)   | [macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.7.zip)   | [macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.7.zip)  |
-| `v125.4.6`   | 2025/04/29 | [Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.6-full.nupkg)   | [macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.6.zip)   | [macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.6.zip)  |
-| `v125.3.6`   | 2025/05/02 | [Windows(112.74MB)](https://desktop.figma.com/win/Figma-125.3.6-full.nupkg)   | [macOS(107.43MB)](https://desktop.figma.com/mac/Figma-125.3.6.zip)   | [macOS_ARM(100.91MB)](https://desktop.figma.com/mac-arm/Figma-125.3.6.zip)  |
-| `v125.3.5`   | 2025/04/11 | [Windows(112.74MB)](https://desktop.figma.com/win/Figma-125.3.5-full.nupkg)   | [macOS(107.43MB)](https://desktop.figma.com/mac/Figma-125.3.5.zip)   | [macOS_ARM(100.91MB)](https://desktop.figma.com/mac-arm/Figma-125.3.5.zip)  |
-| `v125.2.3`   | 2025/04/17 | [Windows(112.53MB)](https://desktop.figma.com/win/Figma-125.2.3-full.nupkg)   | [macOS(107.26MB)](https://desktop.figma.com/mac/Figma-125.2.3.zip)   | [macOS_ARM(100.88MB)](https://desktop.figma.com/mac-arm/Figma-125.2.3.zip)  |
-| `v125.1.5`   | 2025/02/25 | [Windows(111.80MB)](https://desktop.figma.com/win/Figma-125.1.5-full.nupkg)   | [macOS(107.10MB)](https://desktop.figma.com/mac/Figma-125.1.5.zip)   | [macOS_ARM(100.93MB)](https://desktop.figma.com/mac-arm/Figma-125.1.5.zip)  |
-| `v125.0.8`   | 2025/02/08 | [Windows(111.81MB)](https://desktop.figma.com/win/Figma-125.0.8-full.nupkg)   | [macOS(107.12MB)](https://desktop.figma.com/mac/Figma-125.0.8.zip)   | [macOS_ARM(100.95MB)](https://desktop.figma.com/mac-arm/Figma-125.0.8.zip)  |
-| `v125.0.7`   | 2025/02/05 | [Windows(111.82MB)](https://desktop.figma.com/win/Figma-125.0.7-full.nupkg)   | [macOS(107.12MB)](https://desktop.figma.com/mac/Figma-125.0.7.zip)   | [macOS_ARM(100.95MB)](https://desktop.figma.com/mac-arm/Figma-125.0.7.zip)  |
-| `v124.7.4`   | 2024/12/20 | [Windows(111.73MB)](https://desktop.figma.com/win/Figma-124.7.4-full.nupkg)   | [macOS(107.25MB)](https://desktop.figma.com/mac/Figma-124.7.4.zip)   | [macOS_ARM(100.94MB)](https://desktop.figma.com/mac-arm/Figma-124.7.4.zip)  |
-| `v124.6.5`   | 2024/12/18 | [Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.6.5-full.nupkg)   | [macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.6.5.zip)   | [macOS_ARM(98.01MB)](https://desktop.figma.com/mac-arm/Figma-124.6.5.zip)   |
-| `v124.6.3`   | 2024/11/08 | [Windows(107.90MB)](https://desktop.figma.com/win/Figma-124.6.3-full.nupkg)   | [macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.6.3.zip)   | [macOS_ARM(98.00MB)](https://desktop.figma.com/mac-arm/Figma-124.6.3.zip)   |
-| `v124.6.2`   | 2024/11/07 | [Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.6.2-full.nupkg)   | [macOS(105.52MB)](https://desktop.figma.com/mac/Figma-124.6.2.zip)   | [macOS_ARM(98.00MB)](https://desktop.figma.com/mac-arm/Figma-124.6.2.zip)   |
-| `v124.5.7`   | 2024/11/16 | [Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.5.7-full.nupkg)   | [macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.5.7.zip)   | [macOS_ARM(98.01MB)](https://desktop.figma.com/mac-arm/Figma-124.5.7.zip)   |
-| `v124.5.5`   | 2024/11/08 | [Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.5.5-full.nupkg)   | [macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.5.5.zip)   | [macOS_ARM(98.00MB)](https://desktop.figma.com/mac-arm/Figma-124.5.5.zip)   |
-| `v124.5.4`   | 2024/10/08 | [Windows(107.84MB)](https://desktop.figma.com/win/Figma-124.5.4-full.nupkg)   | [macOS(105.48MB)](https://desktop.figma.com/mac/Figma-124.5.4.zip)   | [macOS_ARM(97.95MB)](https://desktop.figma.com/mac-arm/Figma-124.5.4.zip)   |
-| `v124.4.7`   | 2024/09/19 | [Windows(105.97MB)](https://desktop.figma.com/win/Figma-124.4.7-full.nupkg)   | [macOS(104.65MB)](https://desktop.figma.com/mac/Figma-124.4.7.zip)   | [macOS_ARM(97.62MB)](https://desktop.figma.com/mac-arm/Figma-124.4.7.zip)   |
-| `v124.3.3`   | 2024/09/17 |                                                                               | [macOS(104.62MB)](https://desktop.figma.com/mac/Figma-124.3.3.zip)   | [macOS_ARM(97.59MB)](https://desktop.figma.com/mac-arm/Figma-124.3.3.zip)   |
-| `v124.3.2`   | 2024/08/23 | [Windows(106.05MB)](https://desktop.figma.com/win/Figma-124.3.2-full.nupkg)   | [macOS(104.94MB)](https://desktop.figma.com/mac/Figma-124.3.2.zip)   | [macOS_ARM(97.91MB)](https://desktop.figma.com/mac-arm/Figma-124.3.2.zip)   |
-| `v124.3.1`   | 2024/08/13 | [Windows(106.05MB)](https://desktop.figma.com/win/Figma-124.3.1-full.nupkg)   | [macOS(104.94MB)](https://desktop.figma.com/mac/Figma-124.3.1.zip)   | [macOS_ARM(97.91MB)](https://desktop.figma.com/mac-arm/Figma-124.3.1.zip)   |
-| `v124.2.9`   | 2024/08/13 | [Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.2.9-full.nupkg)   | [macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.2.9.zip)   | [macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.2.9.zip)   |
-| `v124.2.8`   | 2024/07/11 | [Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.2.8-full.nupkg)   | [macOS(103.78MB)](https://desktop.figma.com/mac/Figma-124.2.8.zip)   | [macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.2.8.zip)   |
-| `v124.1.16`  | 2024/06/25 | [Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.16-full.nupkg)  | [macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.16.zip)  | [macOS_ARM(97.13MB)](https://desktop.figma.com/mac-arm/Figma-124.1.16.zip)  |
-| `v124.1.12`  | 2024/06/25 | [Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.12-full.nupkg)  | [macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.12.zip)  | [macOS_ARM(97.13MB)](https://desktop.figma.com/mac-arm/Figma-124.1.12.zip)  |
-| `v124.1.11`  | 2024/06/21 | [Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.11-full.nupkg)  | [macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.11.zip)  | [macOS_ARM(97.13MB)](https://desktop.figma.com/mac-arm/Figma-124.1.11.zip)  |
-| `v124.1.6`   | 2024/06/14 | [Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.6-full.nupkg)   | [macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.6.zip)   | [macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.1.6.zip)   |
-| `v124.1.5`   | 2024/06/07 | [Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.5-full.nupkg)   | [macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.5.zip)   | [macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.1.5.zip)   |
-| `v124.0.2`   | 2024/05/09 | [Windows(104.15MB)](https://desktop.figma.com/win/Figma-124.0.2-full.nupkg)   | [macOS(100.67MB)](https://desktop.figma.com/mac/Figma-124.0.2.zip)   | [macOS_ARM(94.15MB)](https://desktop.figma.com/mac-arm/Figma-124.0.2.zip)   |
-| `v116.18.6`  | 2024/05/09 | [Windows(103.99MB)](https://desktop.figma.com/win/Figma-116.18.6-full.nupkg)  | [macOS(101.68MB)](https://desktop.figma.com/mac/Figma-116.18.6.zip)  | [macOS_ARM(95.24MB)](https://desktop.figma.com/mac-arm/Figma-116.18.6.zip)  |
-| `v116.18.4`  | 2024/04/11 | [Windows(104.09MB)](https://desktop.figma.com/win/Figma-116.18.4-full.nupkg)  | [macOS(101.76MB)](https://desktop.figma.com/mac/Figma-116.18.4.zip)  | [macOS_ARM(95.37MB)](https://desktop.figma.com/mac-arm/Figma-116.18.4.zip)  |
-| `v116.17.13` | 2024/04/23 | [Windows(103.98MB)](https://desktop.figma.com/win/Figma-116.17.13-full.nupkg) | [macOS(101.67MB)](https://desktop.figma.com/mac/Figma-116.17.13.zip) | [macOS_ARM(95.22MB)](https://desktop.figma.com/mac-arm/Figma-116.17.13.zip) |
-| `v116.17.11` | 2024/03/22 | [Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.11-full.nupkg) | [macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.11.zip) | [macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.11.zip) |
-| `v116.17.10` | 2024/03/13 | [Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.10-full.nupkg) | [macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.10.zip) | [macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.10.zip) |
-| `v116.17.9`  | 2024/03/08 | [Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.9-full.nupkg)  | [macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.9.zip)  | [macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.9.zip)  |
-| `v116.16.14` | 2024/03/20 | [Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.14-full.nupkg)  | [macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.14.zip)  | [macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.14.zip) |
-| `v116.16.13` | 2024/03/08 | [Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.13-full.nupkg)  | [macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.13.zip)  | [macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.13.zip) |
-| `v116.16.12` | 2024/02/23 | [Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.12-full.nupkg)  | [macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.12.zip)  | [macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.12.zip) |
-| `v116.16.10` | 2024/02/15 | [Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.10-full.nupkg)  | [macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.10.zip)  | [macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.10.zip) |
-| `v116.16.9`  | 2024/02/13 |                                                                               | [macOS(96.00MB)](https://desktop.figma.com/mac/Figma-116.16.9.zip)   | [macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.9.zip)  |
-| `v116.15.15` | 2024/01/23 | [Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.15-full.nupkg)  | [macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.15.zip)  | [macOS_ARM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.15.zip) |
-| `v116.15.4`  | 2023/11/28 | [Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.4-full.nupkg)   | [macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.4.zip)   | [macOS_ARM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.4.zip)  |
-| `v116.14.9`  | 2023/11/21 | [Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.9-full.nupkg)   | [macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.9.zip)   | [macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.9.zip)  |
-| `v116.14.7`  | 2023/10/26 | [Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.7-full.nupkg)   | [macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.7.zip)   | [macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.7.zip)  |
-| `v116.14.6`  | 2023/10/26 | [Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.6-full.nupkg)   | [macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.6.zip)   | [macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.6.zip)  |
-| `v116.14.5`  | 2023/10/24 | [Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.5-full.nupkg)   | [macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.5.zip)   | [macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.5.zip)  |
-| `v116.14.4`  | 2023/10/12 | [Windows(96.53MB)](https://desktop.figma.com/win/Figma-116.14.4-full.nupkg)   | [macOS(93.91MB)](https://desktop.figma.com/mac/Figma-116.14.4.zip)   | [macOS_ARM(88.69MB)](https://desktop.figma.com/mac-arm/Figma-116.14.4.zip)  |
-| `v116.13.3`  | 2023/10/24 | [Windows(96.49MB)](https://desktop.figma.com/win/Figma-116.13.3-full.nupkg)   | [macOS(93.88MB)](https://desktop.figma.com/mac/Figma-116.13.3.zip)   | [macOS_ARM(88.64MB)](https://desktop.figma.com/mac-arm/Figma-116.13.3.zip)  |
-| `v116.13.2`  | 2023/09/15 | [Windows(96.48MB)](https://desktop.figma.com/win/Figma-116.13.2-full.nupkg)   | [macOS(93.87MB)](https://desktop.figma.com/mac/Figma-116.13.2.zip)   | [macOS_ARM(88.63MB)](https://desktop.figma.com/mac-arm/Figma-116.13.2.zip)  |
-| `v116.12.2`  | 2023/09/22 | [Windows(96.47MB)](https://desktop.figma.com/win/Figma-116.12.2-full.nupkg)   | [macOS(93.86MB)](https://desktop.figma.com/mac/Figma-116.12.2.zip)   | [macOS_ARM(88.63MB)](https://desktop.figma.com/mac-arm/Figma-116.12.2.zip)  |
-| `v116.11.1`  | 2023/08/19 | [Windows(96.31MB)](https://desktop.figma.com/win/Figma-116.11.1-full.nupkg)   | [macOS(93.82MB)](https://desktop.figma.com/mac/Figma-116.11.1.zip)   | [macOS_ARM(88.86MB)](https://desktop.figma.com/mac-arm/Figma-116.11.1.zip)  |
-| `v116.10.9`  | 2023/07/18 | [Windows(96.31MB)](https://desktop.figma.com/win/Figma-116.10.9-full.nupkg)   | [macOS(93.82MB)](https://desktop.figma.com/mac/Figma-116.10.9.zip)   | [macOS_ARM(88.86MB)](https://desktop.figma.com/mac-arm/Figma-116.10.9.zip)  |
-| `v116.10.8`  | 2023/06/19 | [Windows(96.31MB)](https://desktop.figma.com/win/Figma-116.10.8-full.nupkg)   | [macOS(93.82MB)](https://desktop.figma.com/mac/Figma-116.10.8.zip)   | [macOS_ARM(88.86MB)](https://desktop.figma.com/mac-arm/Figma-116.10.8.zip)  |
-| `v116.9.6`   | 2023/11/28 | [Windows(94.35MB)](https://desktop.figma.com/win/Figma-116.9.6-full.nupkg)    | [macOS(94.18MB)](https://desktop.figma.com/mac/Figma-116.9.6.zip)    | [macOS_ARM(88.39MB)](https://desktop.figma.com/mac-arm/Figma-116.9.6.zip)   |
-| `v116.9.5`   | 2023/05/13 | [Windows(94.35MB)](https://desktop.figma.com/win/Figma-116.9.5-full.nupkg)    | [macOS(94.18MB)](https://desktop.figma.com/mac/Figma-116.9.5.zip)    | [macOS_ARM(88.39MB)](https://desktop.figma.com/mac-arm/Figma-116.9.5.zip)   |
-| `v116.8.5`   | 2023/05/11 | [Windows(93.86MB)](https://desktop.figma.com/win/Figma-116.8.5-full.nupkg)    | [macOS(93.57MB)](https://desktop.figma.com/mac/Figma-116.8.5.zip)    | [macOS_ARM(87.84MB)](https://desktop.figma.com/mac-arm/Figma-116.8.5.zip)   |
-| `v116.8.4`   | 2023/04/14 | [Windows(93.86MB)](https://desktop.figma.com/win/Figma-116.8.4-full.nupkg)    | [macOS(93.57MB)](https://desktop.figma.com/mac/Figma-116.8.4.zip)    | [macOS_ARM(87.84MB)](https://desktop.figma.com/mac-arm/Figma-116.8.4.zip)   |
-| `v116.7.6`   | 2023/03/10 | [Windows(91.50MB)](https://desktop.figma.com/win/Figma-116.7.6-full.nupkg)    | [macOS(88.84MB)](https://desktop.figma.com/mac/Figma-116.7.6.zip)    | [macOS_ARM(84.91MB)](https://desktop.figma.com/mac-arm/Figma-116.7.6.zip)   |
-| `v116.6.3`   | 2023/02/08 | [Windows(91.49MB)](https://desktop.figma.com/win/Figma-116.6.3-full.nupkg)    | [macOS(88.83MB)](https://desktop.figma.com/mac/Figma-116.6.3.zip)    | [macOS_ARM(84.90MB)](https://desktop.figma.com/mac-arm/Figma-116.6.3.zip)   |
-| `v116.6.2`   | 2023/02/03 | [Windows(91.49MB)](https://desktop.figma.com/win/Figma-116.6.2-full.nupkg)    | [macOS(88.83MB)](https://desktop.figma.com/mac/Figma-116.6.2.zip)    | [macOS_ARM(84.90MB)](https://desktop.figma.com/mac-arm/Figma-116.6.2.zip)   |
-| `v116.5.18`  | 2022/11/30 | [Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.18-full.nupkg)   | [macOS(89.17MB)](https://desktop.figma.com/mac/Figma-116.5.18.zip)   | [macOS_ARM(85.07MB)](https://desktop.figma.com/mac-arm/Figma-116.5.18.zip)  |
-| `v116.5.17`  | 2022/11/15 | [Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.17-full.nupkg)   | [macOS(89.17MB)](https://desktop.figma.com/mac/Figma-116.5.17.zip)   | [macOS_ARM(85.07MB)](https://desktop.figma.com/mac-arm/Figma-116.5.17.zip)  |
-| `v116.5.16`  | 2022/11/05 | [Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.16-full.nupkg)   |                                                                      |
-| `v116.5.15`  | 2022/11/05 | [Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.15-full.nupkg)   | [macOS(89.17MB)](https://desktop.figma.com/mac/Figma-116.5.15.zip)   | [macOS_ARM(85.07MB)](https://desktop.figma.com/mac-arm/Figma-116.5.15.zip)  |
-| `v116.4.4`   | 2022/11/01 | [Windows(87.41MB)](https://desktop.figma.com/win/Figma-116.4.4-full.nupkg)    | [macOS(85.22MB)](https://desktop.figma.com/mac/Figma-116.4.4.zip)    | [macOS_ARM(80.53MB)](https://desktop.figma.com/mac-arm/Figma-116.4.4.zip)   |
-| `v116.4.2`   | 2022/10/07 | [Windows(87.41MB)](https://desktop.figma.com/win/Figma-116.4.2-full.nupkg)    | [macOS(85.22MB)](https://desktop.figma.com/mac/Figma-116.4.2.zip)    | [macOS_ARM(80.53MB)](https://desktop.figma.com/mac-arm/Figma-116.4.2.zip)   |
-| `v116.3.8`   | 2022/09/28 | [Windows(85.55MB)](https://desktop.figma.com/win/Figma-116.3.8-full.nupkg)    | [macOS(84.48MB)](https://desktop.figma.com/mac/Figma-116.3.8.zip)    | [macOS_ARM(84.92MB)](https://desktop.figma.com/mac-arm/Figma-116.3.8.zip)   |
-| `v116.3.7`   | 2022/09/10 | [Windows(85.55MB)](https://desktop.figma.com/win/Figma-116.3.7-full.nupkg)    | [macOS(84.48MB)](https://desktop.figma.com/mac/Figma-116.3.7.zip)    | [macOS_ARM(84.92MB)](https://desktop.figma.com/mac-arm/Figma-116.3.7.zip)   |
-| `v116.3.6`   | 2022/08/25 | [Windows(85.55MB)](https://desktop.figma.com/win/Figma-116.3.6-full.nupkg)    | [macOS(84.49MB)](https://desktop.figma.com/mac/Figma-116.3.6.zip)    | [macOS_ARM(84.92MB)](https://desktop.figma.com/mac-arm/Figma-116.3.6.zip)   |
-| `v116.2.4`   | 2022/07/27 | [Windows(85.53MB)](https://desktop.figma.com/win/Figma-116.2.4-full.nupkg)    | [macOS(84.46MB)](https://desktop.figma.com/mac/Figma-116.2.4.zip)    | [macOS_ARM(84.89MB)](https://desktop.figma.com/mac-arm/Figma-116.2.4.zip)   |
-| `v116.2.3`   | 2022/07/23 | [Windows(85.53MB)](https://desktop.figma.com/win/Figma-116.2.3-full.nupkg)    | [macOS(84.46MB)](https://desktop.figma.com/mac/Figma-116.2.3.zip)    | [macOS_ARM(84.90MB)](https://desktop.figma.com/mac-arm/Figma-116.2.3.zip)   |
-| `v116.2.2`   | 2022/07/22 | [Windows(85.52MB)](https://desktop.figma.com/win/Figma-116.2.2-full.nupkg)    | [macOS(84.46MB)](https://desktop.figma.com/mac/Figma-116.2.2.zip)    | [macOS_ARM(84.89MB)](https://desktop.figma.com/mac-arm/Figma-116.2.2.zip)   |
-| `v116.0.5`   | 2022/06/28 | [Windows(85.45MB)](https://desktop.figma.com/win/Figma-116.0.5-full.nupkg)    | [macOS(84.37MB)](https://desktop.figma.com/mac/Figma-116.0.5.zip)    | [macOS_ARM(84.81MB)](https://desktop.figma.com/mac-arm/Figma-116.0.5.zip)   |
-| `v116.0.4`   | 2022/06/23 | [Windows(85.45MB)](https://desktop.figma.com/win/Figma-116.0.4-full.nupkg)    | [macOS(84.37MB)](https://desktop.figma.com/mac/Figma-116.0.4.zip)    | [macOS_ARM(84.81MB)](https://desktop.figma.com/mac-arm/Figma-116.0.4.zip)   |
-| `v116.0.3`   | 2022/06/18 | [Windows(85.45MB)](https://desktop.figma.com/win/Figma-116.0.3-full.nupkg)    | [macOS(84.38MB)](https://desktop.figma.com/mac/Figma-116.0.3.zip)    | [macOS_ARM(84.82MB)](https://desktop.figma.com/mac-arm/Figma-116.0.3.zip)   |
-| `v114.6.2`   | 2022/05/20 | [Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.6.2-full.nupkg)    |                                                                      |
-| `v114.6.1`   | 2022/05/19 |                                                                               | [macOS(84.04MB)](https://desktop.figma.com/mac/Figma-114.6.1.zip)    | [macOS_ARM(84.48MB)](https://desktop.figma.com/mac-arm/Figma-114.6.1.zip)   |
-| `v114.6.0`   | 2022/05/17 |                                                                               | [macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.6.0.zip)    | [macOS_ARM(84.48MB)](https://desktop.figma.com/mac-arm/Figma-114.6.0.zip)   |
-| `v114.4.0`   | 2022/05/05 | [Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.4.0-full.nupkg)    | [macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.4.0.zip)    | [macOS_ARM(84.47MB)](https://desktop.figma.com/mac-arm/Figma-114.4.0.zip)   |
-| `v114.3.0`   | 2022/04/29 | [Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.3.0-full.nupkg)    | [macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.3.0.zip)    | [macOS_ARM(84.47MB)](https://desktop.figma.com/mac-arm/Figma-114.3.0.zip)   |
-| `v114.2.1`   | 2022/04/26 | [Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.2.1-full.nupkg)    | [macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.2.1.zip)    | [macOS_ARM(84.47MB)](https://desktop.figma.com/mac-arm/Figma-114.2.1.zip)   |
-| `v112.2.0`   | 2022/04/27 | [Windows(85.03MB)](https://desktop.figma.com/win/Figma-112.2.0-full.nupkg)    | [macOS(84.52MB)](https://desktop.figma.com/mac/Figma-112.2.0.zip)    | [macOS_ARM(84.93MB)](https://desktop.figma.com/mac-arm/Figma-112.2.0.zip)   |
-| `v108.1.0`   | 2022/02/12 | [Windows(82.70MB)](https://desktop.figma.com/win/Figma-108.1.0-full.nupkg)    | [macOS(85.58MB)](https://desktop.figma.com/mac/Figma-108.1.0.zip)    | [macOS_ARM(86.82MB)](https://desktop.figma.com/mac-arm/Figma-108.1.0.zip)   |
-| `v107.1.0`   | 2021/12/21 | [Windows(79.55MB)](https://desktop.figma.com/win/Figma-107.1.0-full.nupkg)    | [macOS(82.05MB)](https://desktop.figma.com/mac/Figma-107.1.0.zip)    | [macOS_ARM(83.63MB)](https://desktop.figma.com/mac-arm/Figma-107.1.0.zip)   |
-| `v107.0.0`   | 2021/12/07 | [Windows(79.55MB)](https://desktop.figma.com/win/Figma-107.0.0-full.nupkg)    | [macOS(82.05MB)](https://desktop.figma.com/mac/Figma-107.0.0.zip)    | [macOS_ARM(83.62MB)](https://desktop.figma.com/mac-arm/Figma-107.0.0.zip)   |
-| `v106.0.0`   | 2021/11/16 | [Windows(85.71MB)](https://desktop.figma.com/win/Figma-106.0.0-full.nupkg)    |                                                                      |
-| `v105.2.0`   | 2021/11/16 | [Windows(79.47MB)](https://desktop.figma.com/win/Figma-105.2.0-full.nupkg)    | [macOS(82.05MB)](https://desktop.figma.com/mac/Figma-105.2.0.zip)    | [macOS_ARM(83.62MB)](https://desktop.figma.com/mac-arm/Figma-105.2.0.zip)   |
-| `v104.1.0`   | 2021/10/29 | [Windows(85.71MB)](https://desktop.figma.com/win/Figma-104.1.0-full.nupkg)    | [macOS(84.51MB)](https://desktop.figma.com/mac/Figma-104.1.0.zip)    | [macOS_ARM(86.13MB)](https://desktop.figma.com/mac-arm/Figma-104.1.0.zip)   |
-| `v102.9.0`   | 2021/10/01 | [Windows(85.70MB)](https://desktop.figma.com/win/Figma-102.9.0-full.nupkg)    | [macOS(84.48MB)](https://desktop.figma.com/mac/Figma-102.9.0.zip)    | [macOS_ARM(86.12MB)](https://desktop.figma.com/mac-arm/Figma-102.9.0.zip)   |
-| `v101.6.0`   | 2021/08/24 | [Windows(78.64MB)](https://desktop.figma.com/win/Figma-101.6.0-full.nupkg)    | [macOS(81.15MB)](https://desktop.figma.com/mac/Figma-101.6.0.zip)    | [macOS_ARM(82.88MB)](https://desktop.figma.com/mac-arm/Figma-101.6.0.zip)   |
-| `v101.5.0`   | 2021/08/13 |                                                                               | [macOS(81.15MB)](https://desktop.figma.com/mac/Figma-101.5.0.zip)    | [macOS_ARM(82.88MB)](https://desktop.figma.com/mac-arm/Figma-101.5.0.zip)   |
-| `v99.0.0`    | 2021/07/15 | [Windows(78.62MB)](https://desktop.figma.com/win/Figma-99.0.0-full.nupkg)     | [macOS(82.25MB)](https://desktop.figma.com/mac/Figma-99.0.0.zip)     | [macOS_ARM(83.40MB)](https://desktop.figma.com/mac-arm/Figma-99.0.0.zip)    |
-| `v98.14.0`   | 2021/06/15 | [Windows(78.61MB)](https://desktop.figma.com/win/Figma-98.14.0-full.nupkg)    |                                                                      |
-| `v98.13.0`   | 2021/06/01 |                                                                               | [macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.13.0.zip)    |
-| `v98.11.0`   | 2021/05/21 |                                                                               | [macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.11.0.zip)    | [macOS_ARM(83.40MB)](https://desktop.figma.com/mac-arm/Figma-98.11.0.zip)   |
-| `v98.10.0`   | 2021/05/20 | [Windows(78.61MB)](https://desktop.figma.com/win/Figma-98.10.0-full.nupkg)    | [macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.10.0.zip)    | [macOS_ARM(83.40MB)](https://desktop.figma.com/mac-arm/Figma-98.10.0.zip)   |
-| `v98.8.0`    | 2021/05/13 |                                                                               | [macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.8.0.zip)     |
-| `v97.7.0`    | 2021/05/24 | [Windows(72.93MB)](https://desktop.figma.com/win/Figma-97.7.0-full.nupkg)     | [macOS(78.97MB)](https://desktop.figma.com/mac/Figma-97.7.0.zip)     |
-| `v96.4.0`    | 2021/04/15 | [Windows(72.91MB)](https://desktop.figma.com/win/Figma-96.4.0-full.nupkg)     | [macOS(78.97MB)](https://desktop.figma.com/mac/Figma-96.4.0.zip)     |
-| `v95.8.0`    | 2021/03/04 | [Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.8.0-full.nupkg)     | [macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.8.0.zip)     |
-| `v95.7.0`    | 2021/02/27 | [Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.7.0-full.nupkg)     | [macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.7.0.zip)     |
-| `v95.6.0`    | 2021/02/25 | [Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.6.0-full.nupkg)     | [macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.6.0.zip)     |
-| `v95.5.0`    | 2021/02/24 | [Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.5.0-full.nupkg)     | [macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.5.0.zip)     |
-| `v93.4.0`    | 2021/03/03 | [Windows(72.41MB)](https://desktop.figma.com/win/Figma-93.4.0-full.nupkg)     | [macOS(77.14MB)](https://desktop.figma.com/mac/Figma-93.4.0.zip)     |
-| `v93.1.0`    | 2020/12/14 | [Windows(72.41MB)](https://desktop.figma.com/win/Figma-93.1.0-full.nupkg)     | [macOS(77.14MB)](https://desktop.figma.com/mac/Figma-93.1.0.zip)     |
-| `v92.5.0`    | 2020/12/11 | [Windows(72.41MB)](https://desktop.figma.com/win/Figma-92.5.0-full.nupkg)     |                                                                      |
-| `v92.3.0`    | 2020/12/08 | [Windows(72.41MB)](https://desktop.figma.com/win/Figma-92.3.0-full.nupkg)     | [macOS(77.15MB)](https://desktop.figma.com/mac/Figma-92.3.0.zip)     |
-| `v92.2.0`    | 2020/12/08 |                                                                               | [macOS(77.15MB)](https://desktop.figma.com/mac/Figma-92.2.0.zip)     |
-| `v91.8.0`    | 2020/12/04 |                                                                               | [macOS(77.15MB)](https://desktop.figma.com/mac/Figma-91.8.0.zip)     |
-| `v91.7.0`    | 2020/12/04 | [Windows(72.41MB)](https://desktop.figma.com/win/Figma-91.7.0-full.nupkg)     | [macOS(77.15MB)](https://desktop.figma.com/mac/Figma-91.7.0.zip)     |
-| `v90.4.0`    | 2020/12/08 |                                                                               | [macOS(73.03MB)](https://desktop.figma.com/mac/Figma-90.4.0.zip)     |
-| `v90.3.0`    | 2020/12/11 | [Windows(65.82MB)](https://desktop.figma.com/win/Figma-90.3.0-full.nupkg)     | [macOS(73.02MB)](https://desktop.figma.com/mac/Figma-90.3.0.zip)     |
-| `v88.1.0`    | 2020/10/22 | [Windows(59.74MB)](https://desktop.figma.com/win/Figma-88.1.0-full.nupkg)     | [macOS(64.30MB)](https://desktop.figma.com/mac/Figma-88.1.0.zip)     |
-| `v86.5.0`    | 2020/07/22 | [Windows(59.91MB)](https://desktop.figma.com/win/Figma-86.5.0-full.nupkg)     | [macOS(64.52MB)](https://desktop.figma.com/mac/Figma-86.5.0.zip)     |
-| `v86.4.0`    | 2020/06/11 | [Windows(59.90MB)](https://desktop.figma.com/win/Figma-86.4.0-full.nupkg)     | [macOS(64.51MB)](https://desktop.figma.com/mac/Figma-86.4.0.zip)     |
-| `v85.12.0`   | 2020/04/21 | [Windows(58.40MB)](https://desktop.figma.com/win/Figma-85.12.0-full.nupkg)    | [macOS(64.52MB)](https://desktop.figma.com/mac/Figma-85.12.0.zip)    |
-| `v85.10.0`   | 2020/04/01 | [Windows(58.40MB)](https://desktop.figma.com/win/Figma-85.10.0-full.nupkg)    | [macOS(64.51MB)](https://desktop.figma.com/mac/Figma-85.10.0.zip)    |
-| `v85.3.0`    | 2020/02/04 | [Windows(58.41MB)](https://desktop.figma.com/win/Figma-85.3.0-full.nupkg)     | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-85.3.0.zip)     |
-| `v85.2.0`    | 2020/02/04 | [Windows(58.41MB)](https://desktop.figma.com/win/Figma-85.2.0-full.nupkg)     |                                                                      |
-| `v85.1.0`    | 2020/01/31 | [Windows(58.41MB)](https://desktop.figma.com/win/Figma-85.1.0-full.nupkg)     | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-85.1.0.zip)     |
-| `v84.2.0`    | 2020/01/23 |                                                                               | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-84.2.0.zip)     |
-| `v84.1.0`    | 2020/01/22 |                                                                               | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-84.1.0.zip)     |
-| `v83.6.1`    | 2020/01/18 |                                                                               | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.6.1.zip)     |
-| `v83.6.0`    | 2020/01/16 | [Windows(55.95MB)](https://desktop.figma.com/win/Figma-83.6.0-full.nupkg)     | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.6.0.zip)     |
-| `v83.5.0`    | 2020/01/14 |                                                                               | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.5.0.zip)     |
-| `v83.4.0`    | 2019/12/12 | [Windows(55.96MB)](https://desktop.figma.com/win/Figma-83.4.0-full.nupkg)     | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.4.0.zip)     |
-| `v83.3.0`    | 2019/11/22 | [Windows(55.96MB)](https://desktop.figma.com/win/Figma-83.3.0-full.nupkg)     | [macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.3.0.zip)     |
-| `v82.1.0`    | 2019/11/14 |                                                                               | [macOS(65.54MB)](https://desktop.figma.com/mac/Figma-82.1.0.zip)     |
-| `v81.6.0`    | 2019/11/01 | [Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.6.0-full.nupkg)     | [macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.6.0.zip)     |
-| `v81.5.0`    | 2019/10/22 | [Windows(56.07MB)](https://desktop.figma.com/win/Figma-81.5.0-full.nupkg)     | [macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.5.0.zip)     |
-| `v81.4.0`    | 2019/10/05 | [Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.4.0-full.nupkg)     | [macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.4.0.zip)     |
-| `v81.3.0`    | 2019/10/03 | [Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.3.0-full.nupkg)     | [macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.3.0.zip)     |
-| `v81.2.0`    | 2019/10/03 | [Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.2.0-full.nupkg)     | [macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.2.0.zip)     |
-| `v81.1.0`    | 2019/10/01 |                                                                               | [macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.1.0.zip)     |
-| `v80.1.0`    | 2019/09/21 | [Windows(52.62MB)](https://desktop.figma.com/win/Figma-80.1.0-full.nupkg)     | [macOS(57.42MB)](https://desktop.figma.com/mac/Figma-80.1.0.zip)     |
-| `v77.13.0`   | 2019/11/13 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.13.0.zip)    |
-| `v77.12.0`   | 2019/11/13 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.12.0.zip)    |
-| `v77.11.0`   | 2019/11/05 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.11.0.zip)    |
-| `v77.10.0`   | 2019/11/05 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.10.0.zip)    |
-| `v77.9.0`    | 2019/11/05 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.9.0.zip)     |
-| `v77.8.0`    | 2019/11/05 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.8.0.zip)     |
-| `v77.7.0`    | 2019/10/30 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.7.0.zip)     |
-| `v77.6.0`    | 2019/10/30 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.6.0.zip)     |
-| `v77.5.0`    | 2019/10/29 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.5.0.zip)     |
-| `v77.4.0`    | 2019/10/23 | [Windows(47.77MB)](https://desktop.figma.com/win/Figma-77.4.0-full.nupkg)     | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.4.0.zip)     |
-| `v77.3.0`    | 2019/10/22 | [Windows(47.77MB)](https://desktop.figma.com/win/Figma-77.3.0-full.nupkg)     | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.3.0.zip)     |
-| `v77.2.0`    | 2019/10/17 |                                                                               | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.2.0.zip)     |
-| `v77.1.0`    | 2019/09/21 | [Windows(47.77MB)](https://desktop.figma.com/win/Figma-77.1.0-full.nupkg)     | [macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.1.0.zip)     |
-| `v76.4.0`    | 2019/08/28 | [Windows(51.72MB)](https://desktop.figma.com/win/Figma-76.4.0-full.nupkg)     | [macOS(51.73MB)](https://desktop.figma.com/mac/Figma-76.4.0.zip)     |
-| `v76.3.0`    | 2019/08/24 |                                                                               | [macOS(51.73MB)](https://desktop.figma.com/mac/Figma-76.3.0.zip)     |
-| `v76.2.0`    | 2019/08/20 |                                                                               | [macOS(50.20MB)](https://desktop.figma.com/mac/Figma-76.2.0.zip)     |
-| `v75.0.0`    | 2019/08/01 | [Windows(51.70MB)](https://desktop.figma.com/win/Figma-75.0.0-full.nupkg)     | [macOS(49.95MB)](https://desktop.figma.com/mac/Figma-75.0.0.zip)     |
-| `v74.4.0`    | 2019/07/30 | [Windows(51.70MB)](https://desktop.figma.com/win/Figma-74.4.0-full.nupkg)     | [macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.4.0.zip)     |
-| `v74.3.0`    | 2019/07/30 | [Windows(51.70MB)](https://desktop.figma.com/win/Figma-74.3.0-full.nupkg)     | [macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.3.0.zip)     |
-| `v74.2.0`    | 2019/07/27 | [Windows(51.69MB)](https://desktop.figma.com/win/Figma-74.2.0-full.nupkg)     | [macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.2.0.zip)     |
-| `v74.1.0`    | 2019/07/24 | [Windows(51.70MB)](https://desktop.figma.com/win/Figma-74.1.0-full.nupkg)     | [macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.1.0.zip)     |
-| `v73.7.0`    | 2019/07/11 | [Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.7.0-full.nupkg)     | [macOS(49.93MB)](https://desktop.figma.com/mac/Figma-73.7.0.zip)     |
-| `v73.6.0`    | 2019/07/10 | [Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.6.0-full.nupkg)     | [macOS(49.93MB)](https://desktop.figma.com/mac/Figma-73.6.0.zip)     |
-| `v73.5.0`    | 2019/07/09 | [Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.5.0-full.nupkg)     | [macOS(49.93MB)](https://desktop.figma.com/mac/Figma-73.5.0.zip)     |
-| `v73.4.0`    | 2019/06/19 | [Windows(51.82MB)](https://desktop.figma.com/win/Figma-73.4.0-full.nupkg)     | [macOS(49.90MB)](https://desktop.figma.com/mac/Figma-73.4.0.zip)     |
-| `v73.3.0`    | 2019/06/18 | [Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.3.0-full.nupkg)     | [macOS(49.90MB)](https://desktop.figma.com/mac/Figma-73.3.0.zip)     |
-| `v73.2.0`    | 2019/06/12 |                                                                               | [macOS(49.90MB)](https://desktop.figma.com/mac/Figma-73.2.0.zip)     |
-| `v72.2.0`    | 2019/04/26 |                                                                               | [macOS(49.67MB)](https://desktop.figma.com/mac/Figma-72.2.0.zip)     |
-| `v71.4.0`    | 2019/04/24 | [Windows(51.57MB)](https://desktop.figma.com/win/Figma-71.4.0-full.nupkg)     | [macOS(49.67MB)](https://desktop.figma.com/mac/Figma-71.4.0.zip)     |
-| `v71.3.0`    | 2019/04/24 | [Windows(51.57MB)](https://desktop.figma.com/win/Figma-71.3.0-full.nupkg)     | [macOS(49.67MB)](https://desktop.figma.com/mac/Figma-71.3.0.zip)     |
-| `v71.2.0`    | 2019/04/09 | [Windows(51.59MB)](https://desktop.figma.com/win/Figma-71.2.0-full.nupkg)     | [macOS(49.70MB)](https://desktop.figma.com/mac/Figma-71.2.0.zip)     |
-| `v71.1.0`    | 2019/04/05 | [Windows(51.59MB)](https://desktop.figma.com/win/Figma-71.1.0-full.nupkg)     | [macOS(49.70MB)](https://desktop.figma.com/mac/Figma-71.1.0.zip)     |
-| `v70.3.0`    | 2019/03/26 | [Windows(51.59MB)](https://desktop.figma.com/win/Figma-70.3.0-full.nupkg)     | [macOS(49.70MB)](https://desktop.figma.com/mac/Figma-70.3.0.zip)     |
-| `v70.2.0`    | 2019/03/23 | [Windows(51.59MB)](https://desktop.figma.com/win/Figma-70.2.0-full.nupkg)     | [macOS(49.70MB)](https://desktop.figma.com/mac/Figma-70.2.0.zip)     |
-| `v70.1.0`    | 2019/01/09 | [Windows(58.69MB)](https://desktop.figma.com/win/Figma-70.1.0-full.nupkg)     | [macOS(52.14MB)](https://desktop.figma.com/mac/Figma-70.1.0.zip)     |
-| `v69.9.0`    | 2019/03/22 |                                                                               | [macOS(49.70MB)](https://desktop.figma.com/mac/Figma-69.9.0.zip)     |
-| `v69.8.0`    | 2019/03/19 |                                                                               | [macOS(49.70MB)](https://desktop.figma.com/mac/Figma-69.8.0.zip)     |
-| `v69.7.0`    | 2019/03/14 |                                                                               | [macOS(49.69MB)](https://desktop.figma.com/mac/Figma-69.7.0.zip)     |
-| `v69.6.0`    | 2019/03/01 |                                                                               | [macOS(48.80MB)](https://desktop.figma.com/mac/Figma-69.6.0.zip)     |
-| `v69.4.0`    | 2019/02/27 |                                                                               | [macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.4.0.zip)     |
-| `v69.3.0`    | 2019/02/12 |                                                                               | [macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.3.0.zip)     |
-| `v69.2.0`    | 2019/02/09 |                                                                               | [macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.2.0.zip)     |
-| `v69.1.0`    | 2019/02/02 |                                                                               | [macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.1.0.zip)     |
-| `v68.5.0`    | 2019/01/10 | [Windows(49.14MB)](https://desktop.figma.com/win/Figma-68.5.0-full.nupkg)     | [macOS(46.45MB)](https://desktop.figma.com/mac/Figma-68.5.0.zip)     |
-| `v68.4.0`    | 2019/01/09 | [Windows(49.14MB)](https://desktop.figma.com/win/Figma-68.4.0-full.nupkg)     | [macOS(46.45MB)](https://desktop.figma.com/mac/Figma-68.4.0.zip)     |
-| `v68.1.0`    | 2018/12/12 | [Windows(49.14MB)](https://desktop.figma.com/win/Figma-68.1.0-full.nupkg)     | [macOS(46.44MB)](https://desktop.figma.com/mac/Figma-68.1.0.zip)     |
-| `v67.5.0`    | 2018/12/06 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-67.5.0-full.nupkg)     | [macOS(46.43MB)](https://desktop.figma.com/mac/Figma-67.5.0.zip)     |
-| `v67.3.0`    | 2018/12/05 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-67.3.0-full.nupkg)     | [macOS(46.43MB)](https://desktop.figma.com/mac/Figma-67.3.0.zip)     |
-| `v67.1.0`    | 2018/12/01 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-67.1.0-full.nupkg)     | [macOS(46.43MB)](https://desktop.figma.com/mac/Figma-67.1.0.zip)     |
-| `v66.4.0`    | 2018/11/29 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-66.4.0-full.nupkg)     | [macOS(46.43MB)](https://desktop.figma.com/mac/Figma-66.4.0.zip)     |
-| `v66.2.0`    | 2018/10/25 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-66.2.0-full.nupkg)     | [macOS(46.43MB)](https://desktop.figma.com/mac/Figma-66.2.0.zip)     |
-| `v65.1.0`    | 2018/10/12 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-65.1.0-full.nupkg)     | [macOS(46.43MB)](https://desktop.figma.com/mac/Figma-65.1.0.zip)     |
-| `v64.3.0`    | 2018/10/11 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-64.3.0-full.nupkg)     |                                                                      |
-| `v64.2.0`    | 2018/10/05 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-64.2.0-full.nupkg)     | [macOS(46.43MB)](https://desktop.figma.com/mac/Figma-64.2.0.zip)     |
-| `v64.0.0`    | 2018/08/23 | [Windows(49.13MB)](https://desktop.figma.com/win/Figma-64.0.0-full.nupkg)     | [macOS(46.35MB)](https://desktop.figma.com/mac/Figma-64.0.0.zip)     |
-| `v63.4.0`    | 2018/08/17 |                                                                               | [macOS(46.35MB)](https://desktop.figma.com/mac/Figma-63.4.0.zip)     |
-| `v63.3.0`    | 2018/08/09 | [Windows(49.12MB)](https://desktop.figma.com/win/Figma-63.3.0-full.nupkg)     | [macOS(46.35MB)](https://desktop.figma.com/mac/Figma-63.3.0.zip)     |
-| `v63.2.0`    | 2018/07/14 |                                                                               | [macOS(46.36MB)](https://desktop.figma.com/mac/Figma-63.2.0.zip)     |
-| `v4.0.1`     | 2018/07/11 | [Windows(49.10MB)](https://desktop.figma.com/win/Figma-4.0.1-full.nupkg)      | [macOS(46.33MB)](https://desktop.figma.com/mac/Figma-4.0.1.zip)      |
-| `v4.0.0`     | 2018/07/10 |                                                                               | [macOS(46.33MB)](https://desktop.figma.com/mac/Figma-4.0.0.zip)      |
-| `v3.8.2`     | 2018/06/20 | [Windows(49.09MB)](https://desktop.figma.com/win/Figma-3.8.2-full.nupkg)      | [macOS(46.33MB)](https://desktop.figma.com/mac/Figma-3.8.2.zip)      |
-| `v3.8.0`     | 2018/06/16 | [Windows(49.09MB)](https://desktop.figma.com/win/Figma-3.8.0-full.nupkg)      | [macOS(46.33MB)](https://desktop.figma.com/mac/Figma-3.8.0.zip)      |
-| `v3.7.1`     | 2018/06/12 |                                                                               | [macOS(46.33MB)](https://desktop.figma.com/mac/Figma-3.7.1.zip)      |
-| `v3.7.0`     | 2018/03/21 | [Windows(49.09MB)](https://desktop.figma.com/win/Figma-3.7.0-full.nupkg)      | [macOS(46.32MB)](https://desktop.figma.com/mac/Figma-3.7.0.zip)      |
-| `v3.6.15`    | 2018/06/15 | [Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.15-full.nupkg)     | [macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.15.zip)     |
-| `v3.6.14`    | 2018/06/12 | [Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.14-full.nupkg)     | [macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.14.zip)     |
-| `v3.6.13`    | 2018/06/12 | [Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.13-full.nupkg)     | [macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.13.zip)     |
-| `v3.6.12`    | 2018/05/24 | [Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.12-full.nupkg)     | [macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.12.zip)     |
-| `v3.6.10`    | 2018/04/24 |                                                                               | [macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.10.zip)     |
-| `v3.6.9`     | 2018/04/19 | [Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.9-full.nupkg)      |                                                                      |
-| `v3.6.8`     | 2018/04/17 | [Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.8-full.nupkg)      | [macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.8.zip)      |
-| `v3.6.6`     | 2018/04/12 | [Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.6-full.nupkg)      | [macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.6.zip)      |
-| `v3.6.4`     | 2018/04/05 | [Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.4-full.nupkg)      | [macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.4.zip)      |
-| `v3.6.3`     | 2018/04/04 | [Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.3-full.nupkg)      | [macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.3.zip)      |
-| `v3.6.1`     | 2018/04/03 | [Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.1-full.nupkg)      | [macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.1.zip)      |
-| `v3.6.0`     | 2018/02/22 |                                                                               | [macOS(48.03MB)](https://desktop.figma.com/mac/Figma-3.6.0.zip)      |
-| `v3.5.3`     | 2018/02/14 | [Windows(53.22MB)](https://desktop.figma.com/win/Figma-3.5.3-full.nupkg)      | [macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.3.zip)      |
-| `v3.5.2`     | 2018/02/10 | [Windows(53.22MB)](https://desktop.figma.com/win/Figma-3.5.2-full.nupkg)      | [macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.2.zip)      |
-| `v3.5.1`     | 2018/02/08 |                                                                               | [macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.1.zip)      |
-| `v3.5.0`     | 2018/02/08 | [Windows(53.21MB)](https://desktop.figma.com/win/Figma-3.5.0-full.nupkg)      | [macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.0.zip)      |
-| `v3.3.1`     | 2018/01/24 | [Windows(51.97MB)](https://desktop.figma.com/win/Figma-3.3.1-full.nupkg)      | [macOS(45.17MB)](https://desktop.figma.com/mac/Figma-3.3.1.zip)      |
-| `v3.3.0`     | 2017/09/15 | [Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.3.0-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.3.0.zip)      |
-| `v3.2.0`     | 2017/09/15 | [Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.2.0-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.2.0.zip)      |
-| `v3.1.0`     | 2017/09/14 | [Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.1.0-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.1.0.zip)      |
-| `v3.0.4`     | 2017/08/16 | [Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.0.4-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.4.zip)      |
-| `v3.0.3`     | 2017/08/16 | [Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.0.3-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.3.zip)      |
-| `v3.0.2`     | 2017/08/16 | [Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.0.2-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.2.zip)      |
-| `v3.0.1`     | 2017/07/20 | [Windows(51.97MB)](https://desktop.figma.com/win/Figma-3.0.1-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.1.zip)      |
-| `v3.0.0`     | 2017/07/18 | [Windows(51.97MB)](https://desktop.figma.com/win/Figma-3.0.0-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.0.zip)      |
-| `v2.0.2`     | 2017/07/08 | [Windows(51.97MB)](https://desktop.figma.com/win/Figma-2.0.2-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-2.0.2.zip)      |
-| `v2.0.1`     | 2017/07/08 | [Windows(51.97MB)](https://desktop.figma.com/win/Figma-2.0.1-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-2.0.1.zip)      |
-| `v2.0.0`     | 2017/06/30 | [Windows(51.97MB)](https://desktop.figma.com/win/Figma-2.0.0-full.nupkg)      | [macOS(45.16MB)](https://desktop.figma.com/mac/Figma-2.0.0.zip)      |
-| `v1.8.0`     | 2017/06/09 | [Windows(52.07MB)](https://desktop.figma.com/win/Figma-1.8.0-full.nupkg)      | [macOS(45.14MB)](https://desktop.figma.com/mac/Figma-1.8.0.zip)      |
-| `v1.7.2`     | 2017/06/07 | [Windows(52.07MB)](https://desktop.figma.com/win/Figma-1.7.2-full.nupkg)      | [macOS(45.14MB)](https://desktop.figma.com/mac/Figma-1.7.2.zip)      |
-| `v1.7.1`     | 2017/06/01 | [Windows(52.07MB)](https://desktop.figma.com/win/Figma-1.7.1-full.nupkg)      | [macOS(45.14MB)](https://desktop.figma.com/mac/Figma-1.7.1.zip)      |
-| `v1.6.0`     | 2017/04/21 | [Windows(50.54MB)](https://desktop.figma.com/win/Figma-1.6.0-full.nupkg)      |                                                                      |
-| `v1.5.1`     | 2017/04/20 | [Windows(50.54MB)](https://desktop.figma.com/win/Figma-1.5.1-full.nupkg)      |                                                                      |
+版本|日期|Windows|macOS|macOS_ARM(苹果芯片)
+---|---|---|---|---
+`v125.9.10`|2025/10/21|[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.10-full.nupkg)|[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.10.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.10.zip)
+`v125.9.9`|2025/10/10|[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.9-full.nupkg)|[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.9.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.9.zip)
+`v125.9.8`|2025/10/07|[Windows(120.28MB)](https://desktop.figma.com/win/Figma-125.9.8-full.nupkg)|[macOS(118.75MB)](https://desktop.figma.com/mac/Figma-125.9.8.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.9.8.zip)
+`v125.8.9`|2025/10/17|[Windows(119.82MB)](https://desktop.figma.com/win/Figma-125.8.9-full.nupkg)|[macOS(118.36MB)](https://desktop.figma.com/mac/Figma-125.8.9.zip)|[macOS_ARM(111.91MB)](https://desktop.figma.com/mac-arm/Figma-125.8.9.zip)
+`v125.8.8`|2025/09/19|[Windows(119.82MB)](https://desktop.figma.com/win/Figma-125.8.8-full.nupkg)|[macOS(118.36MB)](https://desktop.figma.com/mac/Figma-125.8.8.zip)|[macOS_ARM(111.91MB)](https://desktop.figma.com/mac-arm/Figma-125.8.8.zip)
+`v125.8.6`|2025/09/18|[Windows(120.37MB)](https://desktop.figma.com/win/Figma-125.8.6-full.nupkg)|[macOS(119.14MB)](https://desktop.figma.com/mac/Figma-125.8.6.zip)|[macOS_ARM(112.36MB)](https://desktop.figma.com/mac-arm/Figma-125.8.6.zip)
+`v125.7.5`|2025/08/26|[Windows(118.43MB)](https://desktop.figma.com/win/Figma-125.7.5-full.nupkg)|[macOS(115.90MB)](https://desktop.figma.com/mac/Figma-125.7.5.zip)|[macOS_ARM(109.49MB)](https://desktop.figma.com/mac-arm/Figma-125.7.5.zip)
+`v125.6.5`|2025/08/19|[Windows(117.83MB)](https://desktop.figma.com/win/Figma-125.6.5-full.nupkg)|[macOS(115.84MB)](https://desktop.figma.com/mac/Figma-125.6.5.zip)|[macOS_ARM(109.44MB)](https://desktop.figma.com/mac-arm/Figma-125.6.5.zip)
+`v125.6.4`|2025/07/08|[Windows(117.83MB)](https://desktop.figma.com/win/Figma-125.6.4-full.nupkg)|[macOS(115.84MB)](https://desktop.figma.com/mac/Figma-125.6.4.zip)|[macOS_ARM(109.45MB)](https://desktop.figma.com/mac-arm/Figma-125.6.4.zip)
+`v125.5.6`|2025/06/18|[Windows(112.97MB)](https://desktop.figma.com/win/Figma-125.5.6-full.nupkg)|[macOS(107.67MB)](https://desktop.figma.com/mac/Figma-125.5.6.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.5.6.zip)
+`v125.4.9`|2025/05/16|[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.9-full.nupkg)|[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.9.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.9.zip)
+`v125.4.8`|2025/05/07|[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.8-full.nupkg)|[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.8.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.8.zip)
+`v125.4.7`|2025/05/03|[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.7-full.nupkg)|[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.7.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.7.zip)
+`v125.4.6`|2025/04/29|[Windows(112.96MB)](https://desktop.figma.com/win/Figma-125.4.6-full.nupkg)|[macOS(107.66MB)](https://desktop.figma.com/mac/Figma-125.4.6.zip)|[macOS_ARM(101.14MB)](https://desktop.figma.com/mac-arm/Figma-125.4.6.zip)
+`v125.3.6`|2025/05/02|[Windows(112.74MB)](https://desktop.figma.com/win/Figma-125.3.6-full.nupkg)|[macOS(107.43MB)](https://desktop.figma.com/mac/Figma-125.3.6.zip)|[macOS_ARM(100.91MB)](https://desktop.figma.com/mac-arm/Figma-125.3.6.zip)
+`v125.3.5`|2025/04/11|[Windows(112.74MB)](https://desktop.figma.com/win/Figma-125.3.5-full.nupkg)|[macOS(107.43MB)](https://desktop.figma.com/mac/Figma-125.3.5.zip)|[macOS_ARM(100.91MB)](https://desktop.figma.com/mac-arm/Figma-125.3.5.zip)
+`v125.2.3`|2025/04/17|[Windows(112.53MB)](https://desktop.figma.com/win/Figma-125.2.3-full.nupkg)|[macOS(107.26MB)](https://desktop.figma.com/mac/Figma-125.2.3.zip)|[macOS_ARM(100.88MB)](https://desktop.figma.com/mac-arm/Figma-125.2.3.zip)
+`v125.1.5`|2025/02/25|[Windows(111.80MB)](https://desktop.figma.com/win/Figma-125.1.5-full.nupkg)|[macOS(107.10MB)](https://desktop.figma.com/mac/Figma-125.1.5.zip)|[macOS_ARM(100.93MB)](https://desktop.figma.com/mac-arm/Figma-125.1.5.zip)
+`v125.0.8`|2025/02/08|[Windows(111.81MB)](https://desktop.figma.com/win/Figma-125.0.8-full.nupkg)|[macOS(107.12MB)](https://desktop.figma.com/mac/Figma-125.0.8.zip)|[macOS_ARM(100.95MB)](https://desktop.figma.com/mac-arm/Figma-125.0.8.zip)
+`v125.0.7`|2025/02/05|[Windows(111.82MB)](https://desktop.figma.com/win/Figma-125.0.7-full.nupkg)|[macOS(107.12MB)](https://desktop.figma.com/mac/Figma-125.0.7.zip)|[macOS_ARM(100.95MB)](https://desktop.figma.com/mac-arm/Figma-125.0.7.zip)
+`v124.7.4`|2024/12/20|[Windows(111.73MB)](https://desktop.figma.com/win/Figma-124.7.4-full.nupkg)|[macOS(107.25MB)](https://desktop.figma.com/mac/Figma-124.7.4.zip)|[macOS_ARM(100.94MB)](https://desktop.figma.com/mac-arm/Figma-124.7.4.zip)
+`v124.6.5`|2024/12/18|[Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.6.5-full.nupkg)|[macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.6.5.zip)|[macOS_ARM(98.01MB)](https://desktop.figma.com/mac-arm/Figma-124.6.5.zip)
+`v124.6.3`|2024/11/08|[Windows(107.90MB)](https://desktop.figma.com/win/Figma-124.6.3-full.nupkg)|[macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.6.3.zip)|[macOS_ARM(98.00MB)](https://desktop.figma.com/mac-arm/Figma-124.6.3.zip)
+`v124.6.2`|2024/11/07|[Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.6.2-full.nupkg)|[macOS(105.52MB)](https://desktop.figma.com/mac/Figma-124.6.2.zip)|[macOS_ARM(98.00MB)](https://desktop.figma.com/mac-arm/Figma-124.6.2.zip)
+`v124.5.7`|2024/11/16|[Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.5.7-full.nupkg)|[macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.5.7.zip)|[macOS_ARM(98.01MB)](https://desktop.figma.com/mac-arm/Figma-124.5.7.zip)
+`v124.5.5`|2024/11/08|[Windows(107.89MB)](https://desktop.figma.com/win/Figma-124.5.5-full.nupkg)|[macOS(105.53MB)](https://desktop.figma.com/mac/Figma-124.5.5.zip)|[macOS_ARM(98.00MB)](https://desktop.figma.com/mac-arm/Figma-124.5.5.zip)
+`v124.5.4`|2024/10/08|[Windows(107.84MB)](https://desktop.figma.com/win/Figma-124.5.4-full.nupkg)|[macOS(105.48MB)](https://desktop.figma.com/mac/Figma-124.5.4.zip)|[macOS_ARM(97.95MB)](https://desktop.figma.com/mac-arm/Figma-124.5.4.zip)
+`v124.4.7`|2024/09/19|[Windows(105.97MB)](https://desktop.figma.com/win/Figma-124.4.7-full.nupkg)|[macOS(104.65MB)](https://desktop.figma.com/mac/Figma-124.4.7.zip)|[macOS_ARM(97.62MB)](https://desktop.figma.com/mac-arm/Figma-124.4.7.zip)
+`v124.3.3`|2024/09/17||[macOS(104.62MB)](https://desktop.figma.com/mac/Figma-124.3.3.zip)|[macOS_ARM(97.59MB)](https://desktop.figma.com/mac-arm/Figma-124.3.3.zip)
+`v124.3.2`|2024/08/23|[Windows(106.05MB)](https://desktop.figma.com/win/Figma-124.3.2-full.nupkg)|[macOS(104.94MB)](https://desktop.figma.com/mac/Figma-124.3.2.zip)|[macOS_ARM(97.91MB)](https://desktop.figma.com/mac-arm/Figma-124.3.2.zip)
+`v124.3.1`|2024/08/13|[Windows(106.05MB)](https://desktop.figma.com/win/Figma-124.3.1-full.nupkg)|[macOS(104.94MB)](https://desktop.figma.com/mac/Figma-124.3.1.zip)|[macOS_ARM(97.91MB)](https://desktop.figma.com/mac-arm/Figma-124.3.1.zip)
+`v124.2.9`|2024/08/13|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.2.9-full.nupkg)|[macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.2.9.zip)|[macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.2.9.zip)
+`v124.2.8`|2024/07/11|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.2.8-full.nupkg)|[macOS(103.78MB)](https://desktop.figma.com/mac/Figma-124.2.8.zip)|[macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.2.8.zip)
+`v124.1.16`|2024/06/25|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.16-full.nupkg)|[macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.16.zip)|[macOS_ARM(97.13MB)](https://desktop.figma.com/mac-arm/Figma-124.1.16.zip)
+`v124.1.12`|2024/06/25|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.12-full.nupkg)|[macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.12.zip)|[macOS_ARM(97.13MB)](https://desktop.figma.com/mac-arm/Figma-124.1.12.zip)
+`v124.1.11`|2024/06/21|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.11-full.nupkg)|[macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.11.zip)|[macOS_ARM(97.13MB)](https://desktop.figma.com/mac-arm/Figma-124.1.11.zip)
+`v124.1.6`|2024/06/14|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.6-full.nupkg)|[macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.6.zip)|[macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.1.6.zip)
+`v124.1.5`|2024/06/07|[Windows(105.54MB)](https://desktop.figma.com/win/Figma-124.1.5-full.nupkg)|[macOS(103.79MB)](https://desktop.figma.com/mac/Figma-124.1.5.zip)|[macOS_ARM(97.12MB)](https://desktop.figma.com/mac-arm/Figma-124.1.5.zip)
+`v124.0.2`|2024/05/09|[Windows(104.15MB)](https://desktop.figma.com/win/Figma-124.0.2-full.nupkg)|[macOS(100.67MB)](https://desktop.figma.com/mac/Figma-124.0.2.zip)|[macOS_ARM(94.15MB)](https://desktop.figma.com/mac-arm/Figma-124.0.2.zip)
+`v116.18.6`|2024/05/09|[Windows(103.99MB)](https://desktop.figma.com/win/Figma-116.18.6-full.nupkg)|[macOS(101.68MB)](https://desktop.figma.com/mac/Figma-116.18.6.zip)|[macOS_ARM(95.24MB)](https://desktop.figma.com/mac-arm/Figma-116.18.6.zip)
+`v116.18.4`|2024/04/11|[Windows(104.09MB)](https://desktop.figma.com/win/Figma-116.18.4-full.nupkg)|[macOS(101.76MB)](https://desktop.figma.com/mac/Figma-116.18.4.zip)|[macOS_ARM(95.37MB)](https://desktop.figma.com/mac-arm/Figma-116.18.4.zip)
+`v116.17.13`|2024/04/23|[Windows(103.98MB)](https://desktop.figma.com/win/Figma-116.17.13-full.nupkg)|[macOS(101.67MB)](https://desktop.figma.com/mac/Figma-116.17.13.zip)|[macOS_ARM(95.22MB)](https://desktop.figma.com/mac-arm/Figma-116.17.13.zip)
+`v116.17.11`|2024/03/22|[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.11-full.nupkg)|[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.11.zip)|[macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.11.zip)
+`v116.17.10`|2024/03/13|[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.10-full.nupkg)|[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.10.zip)|[macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.10.zip)
+`v116.17.9`|2024/03/08|[Windows(104.08MB)](https://desktop.figma.com/win/Figma-116.17.9-full.nupkg)|[macOS(101.74MB)](https://desktop.figma.com/mac/Figma-116.17.9.zip)|[macOS_ARM(95.35MB)](https://desktop.figma.com/mac-arm/Figma-116.17.9.zip)
+`v116.16.14`|2024/03/20|[Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.14-full.nupkg)|[macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.14.zip)|[macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.14.zip)
+`v116.16.13`|2024/03/08|[Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.13-full.nupkg)|[macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.13.zip)|[macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.13.zip)
+`v116.16.12`|2024/02/23|[Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.12-full.nupkg)|[macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.12.zip)|[macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.12.zip)
+`v116.16.10`|2024/02/15|[Windows(98.71MB)](https://desktop.figma.com/win/Figma-116.16.10-full.nupkg)|[macOS(95.99MB)](https://desktop.figma.com/mac/Figma-116.16.10.zip)|[macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.10.zip)
+`v116.16.9`|2024/02/13||[macOS(96.00MB)](https://desktop.figma.com/mac/Figma-116.16.9.zip)|[macOS_ARM(90.83MB)](https://desktop.figma.com/mac-arm/Figma-116.16.9.zip)
+`v116.15.15`|2024/01/23|[Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.15-full.nupkg)|[macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.15.zip)|[macOS_ARM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.15.zip)
+`v116.15.4`|2023/11/28|[Windows(98.67MB)](https://desktop.figma.com/win/Figma-116.15.4-full.nupkg)|[macOS(95.96MB)](https://desktop.figma.com/mac/Figma-116.15.4.zip)|[macOS_ARM(90.80MB)](https://desktop.figma.com/mac-arm/Figma-116.15.4.zip)
+`v116.14.9`|2023/11/21|[Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.9-full.nupkg)|[macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.9.zip)|[macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.9.zip)
+`v116.14.7`|2023/10/26|[Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.7-full.nupkg)|[macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.7.zip)|[macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.7.zip)
+`v116.14.6`|2023/10/26|[Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.6-full.nupkg)|[macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.6.zip)|[macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.6.zip)
+`v116.14.5`|2023/10/24|[Windows(96.54MB)](https://desktop.figma.com/win/Figma-116.14.5-full.nupkg)|[macOS(93.92MB)](https://desktop.figma.com/mac/Figma-116.14.5.zip)|[macOS_ARM(88.70MB)](https://desktop.figma.com/mac-arm/Figma-116.14.5.zip)
+`v116.14.4`|2023/10/12|[Windows(96.53MB)](https://desktop.figma.com/win/Figma-116.14.4-full.nupkg)|[macOS(93.91MB)](https://desktop.figma.com/mac/Figma-116.14.4.zip)|[macOS_ARM(88.69MB)](https://desktop.figma.com/mac-arm/Figma-116.14.4.zip)
+`v116.13.3`|2023/10/24|[Windows(96.49MB)](https://desktop.figma.com/win/Figma-116.13.3-full.nupkg)|[macOS(93.88MB)](https://desktop.figma.com/mac/Figma-116.13.3.zip)|[macOS_ARM(88.64MB)](https://desktop.figma.com/mac-arm/Figma-116.13.3.zip)
+`v116.13.2`|2023/09/15|[Windows(96.48MB)](https://desktop.figma.com/win/Figma-116.13.2-full.nupkg)|[macOS(93.87MB)](https://desktop.figma.com/mac/Figma-116.13.2.zip)|[macOS_ARM(88.63MB)](https://desktop.figma.com/mac-arm/Figma-116.13.2.zip)
+`v116.12.2`|2023/09/22|[Windows(96.47MB)](https://desktop.figma.com/win/Figma-116.12.2-full.nupkg)|[macOS(93.86MB)](https://desktop.figma.com/mac/Figma-116.12.2.zip)|[macOS_ARM(88.63MB)](https://desktop.figma.com/mac-arm/Figma-116.12.2.zip)
+`v116.11.1`|2023/08/19|[Windows(96.31MB)](https://desktop.figma.com/win/Figma-116.11.1-full.nupkg)|[macOS(93.82MB)](https://desktop.figma.com/mac/Figma-116.11.1.zip)|[macOS_ARM(88.86MB)](https://desktop.figma.com/mac-arm/Figma-116.11.1.zip)
+`v116.10.9`|2023/07/18|[Windows(96.31MB)](https://desktop.figma.com/win/Figma-116.10.9-full.nupkg)|[macOS(93.82MB)](https://desktop.figma.com/mac/Figma-116.10.9.zip)|[macOS_ARM(88.86MB)](https://desktop.figma.com/mac-arm/Figma-116.10.9.zip)
+`v116.10.8`|2023/06/19|[Windows(96.31MB)](https://desktop.figma.com/win/Figma-116.10.8-full.nupkg)|[macOS(93.82MB)](https://desktop.figma.com/mac/Figma-116.10.8.zip)|[macOS_ARM(88.86MB)](https://desktop.figma.com/mac-arm/Figma-116.10.8.zip)
+`v116.9.6`|2023/11/28|[Windows(94.35MB)](https://desktop.figma.com/win/Figma-116.9.6-full.nupkg)|[macOS(94.18MB)](https://desktop.figma.com/mac/Figma-116.9.6.zip)|[macOS_ARM(88.39MB)](https://desktop.figma.com/mac-arm/Figma-116.9.6.zip)
+`v116.9.5`|2023/05/13|[Windows(94.35MB)](https://desktop.figma.com/win/Figma-116.9.5-full.nupkg)|[macOS(94.18MB)](https://desktop.figma.com/mac/Figma-116.9.5.zip)|[macOS_ARM(88.39MB)](https://desktop.figma.com/mac-arm/Figma-116.9.5.zip)
+`v116.8.5`|2023/05/11|[Windows(93.86MB)](https://desktop.figma.com/win/Figma-116.8.5-full.nupkg)|[macOS(93.57MB)](https://desktop.figma.com/mac/Figma-116.8.5.zip)|[macOS_ARM(87.84MB)](https://desktop.figma.com/mac-arm/Figma-116.8.5.zip)
+`v116.8.4`|2023/04/14|[Windows(93.86MB)](https://desktop.figma.com/win/Figma-116.8.4-full.nupkg)|[macOS(93.57MB)](https://desktop.figma.com/mac/Figma-116.8.4.zip)|[macOS_ARM(87.84MB)](https://desktop.figma.com/mac-arm/Figma-116.8.4.zip)
+`v116.7.6`|2023/03/10|[Windows(91.50MB)](https://desktop.figma.com/win/Figma-116.7.6-full.nupkg)|[macOS(88.84MB)](https://desktop.figma.com/mac/Figma-116.7.6.zip)|[macOS_ARM(84.91MB)](https://desktop.figma.com/mac-arm/Figma-116.7.6.zip)
+`v116.6.3`|2023/02/08|[Windows(91.49MB)](https://desktop.figma.com/win/Figma-116.6.3-full.nupkg)|[macOS(88.83MB)](https://desktop.figma.com/mac/Figma-116.6.3.zip)|[macOS_ARM(84.90MB)](https://desktop.figma.com/mac-arm/Figma-116.6.3.zip)
+`v116.6.2`|2023/02/03|[Windows(91.49MB)](https://desktop.figma.com/win/Figma-116.6.2-full.nupkg)|[macOS(88.83MB)](https://desktop.figma.com/mac/Figma-116.6.2.zip)|[macOS_ARM(84.90MB)](https://desktop.figma.com/mac-arm/Figma-116.6.2.zip)
+`v116.5.18`|2022/11/30|[Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.18-full.nupkg)|[macOS(89.17MB)](https://desktop.figma.com/mac/Figma-116.5.18.zip)|[macOS_ARM(85.07MB)](https://desktop.figma.com/mac-arm/Figma-116.5.18.zip)
+`v116.5.17`|2022/11/15|[Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.17-full.nupkg)|[macOS(89.17MB)](https://desktop.figma.com/mac/Figma-116.5.17.zip)|[macOS_ARM(85.07MB)](https://desktop.figma.com/mac-arm/Figma-116.5.17.zip)
+`v116.5.16`|2022/11/05|[Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.16-full.nupkg)||
+`v116.5.15`|2022/11/05|[Windows(92.14MB)](https://desktop.figma.com/win/Figma-116.5.15-full.nupkg)|[macOS(89.17MB)](https://desktop.figma.com/mac/Figma-116.5.15.zip)|[macOS_ARM(85.07MB)](https://desktop.figma.com/mac-arm/Figma-116.5.15.zip)
+`v116.4.4`|2022/11/01|[Windows(87.41MB)](https://desktop.figma.com/win/Figma-116.4.4-full.nupkg)|[macOS(85.22MB)](https://desktop.figma.com/mac/Figma-116.4.4.zip)|[macOS_ARM(80.53MB)](https://desktop.figma.com/mac-arm/Figma-116.4.4.zip)
+`v116.4.2`|2022/10/07|[Windows(87.41MB)](https://desktop.figma.com/win/Figma-116.4.2-full.nupkg)|[macOS(85.22MB)](https://desktop.figma.com/mac/Figma-116.4.2.zip)|[macOS_ARM(80.53MB)](https://desktop.figma.com/mac-arm/Figma-116.4.2.zip)
+`v116.3.8`|2022/09/28|[Windows(85.55MB)](https://desktop.figma.com/win/Figma-116.3.8-full.nupkg)|[macOS(84.48MB)](https://desktop.figma.com/mac/Figma-116.3.8.zip)|[macOS_ARM(84.92MB)](https://desktop.figma.com/mac-arm/Figma-116.3.8.zip)
+`v116.3.7`|2022/09/10|[Windows(85.55MB)](https://desktop.figma.com/win/Figma-116.3.7-full.nupkg)|[macOS(84.48MB)](https://desktop.figma.com/mac/Figma-116.3.7.zip)|[macOS_ARM(84.92MB)](https://desktop.figma.com/mac-arm/Figma-116.3.7.zip)
+`v116.3.6`|2022/08/25|[Windows(85.55MB)](https://desktop.figma.com/win/Figma-116.3.6-full.nupkg)|[macOS(84.49MB)](https://desktop.figma.com/mac/Figma-116.3.6.zip)|[macOS_ARM(84.92MB)](https://desktop.figma.com/mac-arm/Figma-116.3.6.zip)
+`v116.2.4`|2022/07/27|[Windows(85.53MB)](https://desktop.figma.com/win/Figma-116.2.4-full.nupkg)|[macOS(84.46MB)](https://desktop.figma.com/mac/Figma-116.2.4.zip)|[macOS_ARM(84.89MB)](https://desktop.figma.com/mac-arm/Figma-116.2.4.zip)
+`v116.2.3`|2022/07/23|[Windows(85.53MB)](https://desktop.figma.com/win/Figma-116.2.3-full.nupkg)|[macOS(84.46MB)](https://desktop.figma.com/mac/Figma-116.2.3.zip)|[macOS_ARM(84.90MB)](https://desktop.figma.com/mac-arm/Figma-116.2.3.zip)
+`v116.2.2`|2022/07/22|[Windows(85.52MB)](https://desktop.figma.com/win/Figma-116.2.2-full.nupkg)|[macOS(84.46MB)](https://desktop.figma.com/mac/Figma-116.2.2.zip)|[macOS_ARM(84.89MB)](https://desktop.figma.com/mac-arm/Figma-116.2.2.zip)
+`v116.0.5`|2022/06/28|[Windows(85.45MB)](https://desktop.figma.com/win/Figma-116.0.5-full.nupkg)|[macOS(84.37MB)](https://desktop.figma.com/mac/Figma-116.0.5.zip)|[macOS_ARM(84.81MB)](https://desktop.figma.com/mac-arm/Figma-116.0.5.zip)
+`v116.0.4`|2022/06/23|[Windows(85.45MB)](https://desktop.figma.com/win/Figma-116.0.4-full.nupkg)|[macOS(84.37MB)](https://desktop.figma.com/mac/Figma-116.0.4.zip)|[macOS_ARM(84.81MB)](https://desktop.figma.com/mac-arm/Figma-116.0.4.zip)
+`v116.0.3`|2022/06/18|[Windows(85.45MB)](https://desktop.figma.com/win/Figma-116.0.3-full.nupkg)|[macOS(84.38MB)](https://desktop.figma.com/mac/Figma-116.0.3.zip)|[macOS_ARM(84.82MB)](https://desktop.figma.com/mac-arm/Figma-116.0.3.zip)
+`v114.6.2`|2022/05/20|[Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.6.2-full.nupkg)||
+`v114.6.1`|2022/05/19||[macOS(84.04MB)](https://desktop.figma.com/mac/Figma-114.6.1.zip)|[macOS_ARM(84.48MB)](https://desktop.figma.com/mac-arm/Figma-114.6.1.zip)
+`v114.6.0`|2022/05/17||[macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.6.0.zip)|[macOS_ARM(84.48MB)](https://desktop.figma.com/mac-arm/Figma-114.6.0.zip)
+`v114.4.0`|2022/05/05|[Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.4.0-full.nupkg)|[macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.4.0.zip)|[macOS_ARM(84.47MB)](https://desktop.figma.com/mac-arm/Figma-114.4.0.zip)
+`v114.3.0`|2022/04/29|[Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.3.0-full.nupkg)|[macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.3.0.zip)|[macOS_ARM(84.47MB)](https://desktop.figma.com/mac-arm/Figma-114.3.0.zip)
+`v114.2.1`|2022/04/26|[Windows(85.06MB)](https://desktop.figma.com/win/Figma-114.2.1-full.nupkg)|[macOS(84.03MB)](https://desktop.figma.com/mac/Figma-114.2.1.zip)|[macOS_ARM(84.47MB)](https://desktop.figma.com/mac-arm/Figma-114.2.1.zip)
+`v112.2.0`|2022/04/27|[Windows(85.03MB)](https://desktop.figma.com/win/Figma-112.2.0-full.nupkg)|[macOS(84.52MB)](https://desktop.figma.com/mac/Figma-112.2.0.zip)|[macOS_ARM(84.93MB)](https://desktop.figma.com/mac-arm/Figma-112.2.0.zip)
+`v108.1.0`|2022/02/12|[Windows(82.70MB)](https://desktop.figma.com/win/Figma-108.1.0-full.nupkg)|[macOS(85.58MB)](https://desktop.figma.com/mac/Figma-108.1.0.zip)|[macOS_ARM(86.82MB)](https://desktop.figma.com/mac-arm/Figma-108.1.0.zip)
+`v107.1.0`|2021/12/21|[Windows(79.55MB)](https://desktop.figma.com/win/Figma-107.1.0-full.nupkg)|[macOS(82.05MB)](https://desktop.figma.com/mac/Figma-107.1.0.zip)|[macOS_ARM(83.63MB)](https://desktop.figma.com/mac-arm/Figma-107.1.0.zip)
+`v107.0.0`|2021/12/07|[Windows(79.55MB)](https://desktop.figma.com/win/Figma-107.0.0-full.nupkg)|[macOS(82.05MB)](https://desktop.figma.com/mac/Figma-107.0.0.zip)|[macOS_ARM(83.62MB)](https://desktop.figma.com/mac-arm/Figma-107.0.0.zip)
+`v106.0.0`|2021/11/16|[Windows(85.71MB)](https://desktop.figma.com/win/Figma-106.0.0-full.nupkg)||
+`v105.2.0`|2021/11/16|[Windows(79.47MB)](https://desktop.figma.com/win/Figma-105.2.0-full.nupkg)|[macOS(82.05MB)](https://desktop.figma.com/mac/Figma-105.2.0.zip)|[macOS_ARM(83.62MB)](https://desktop.figma.com/mac-arm/Figma-105.2.0.zip)
+`v104.1.0`|2021/10/29|[Windows(85.71MB)](https://desktop.figma.com/win/Figma-104.1.0-full.nupkg)|[macOS(84.51MB)](https://desktop.figma.com/mac/Figma-104.1.0.zip)|[macOS_ARM(86.13MB)](https://desktop.figma.com/mac-arm/Figma-104.1.0.zip)
+`v102.9.0`|2021/10/01|[Windows(85.70MB)](https://desktop.figma.com/win/Figma-102.9.0-full.nupkg)|[macOS(84.48MB)](https://desktop.figma.com/mac/Figma-102.9.0.zip)|[macOS_ARM(86.12MB)](https://desktop.figma.com/mac-arm/Figma-102.9.0.zip)
+`v101.6.0`|2021/08/24|[Windows(78.64MB)](https://desktop.figma.com/win/Figma-101.6.0-full.nupkg)|[macOS(81.15MB)](https://desktop.figma.com/mac/Figma-101.6.0.zip)|[macOS_ARM(82.88MB)](https://desktop.figma.com/mac-arm/Figma-101.6.0.zip)
+`v101.5.0`|2021/08/13||[macOS(81.15MB)](https://desktop.figma.com/mac/Figma-101.5.0.zip)|[macOS_ARM(82.88MB)](https://desktop.figma.com/mac-arm/Figma-101.5.0.zip)
+`v99.0.0`|2021/07/15|[Windows(78.62MB)](https://desktop.figma.com/win/Figma-99.0.0-full.nupkg)|[macOS(82.25MB)](https://desktop.figma.com/mac/Figma-99.0.0.zip)|[macOS_ARM(83.40MB)](https://desktop.figma.com/mac-arm/Figma-99.0.0.zip)
+`v98.14.0`|2021/06/15|[Windows(78.61MB)](https://desktop.figma.com/win/Figma-98.14.0-full.nupkg)||
+`v98.13.0`|2021/06/01||[macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.13.0.zip)|
+`v98.11.0`|2021/05/21||[macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.11.0.zip)|[macOS_ARM(83.40MB)](https://desktop.figma.com/mac-arm/Figma-98.11.0.zip)
+`v98.10.0`|2021/05/20|[Windows(78.61MB)](https://desktop.figma.com/win/Figma-98.10.0-full.nupkg)|[macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.10.0.zip)|[macOS_ARM(83.40MB)](https://desktop.figma.com/mac-arm/Figma-98.10.0.zip)
+`v98.8.0`|2021/05/13||[macOS(82.24MB)](https://desktop.figma.com/mac/Figma-98.8.0.zip)|
+`v97.7.0`|2021/05/24|[Windows(72.93MB)](https://desktop.figma.com/win/Figma-97.7.0-full.nupkg)|[macOS(78.97MB)](https://desktop.figma.com/mac/Figma-97.7.0.zip)|
+`v96.4.0`|2021/04/15|[Windows(72.91MB)](https://desktop.figma.com/win/Figma-96.4.0-full.nupkg)|[macOS(78.97MB)](https://desktop.figma.com/mac/Figma-96.4.0.zip)|
+`v95.8.0`|2021/03/04|[Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.8.0-full.nupkg)|[macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.8.0.zip)|
+`v95.7.0`|2021/02/27|[Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.7.0-full.nupkg)|[macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.7.0.zip)|
+`v95.6.0`|2021/02/25|[Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.6.0-full.nupkg)|[macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.6.0.zip)|
+`v95.5.0`|2021/02/24|[Windows(72.89MB)](https://desktop.figma.com/win/Figma-95.5.0-full.nupkg)|[macOS(78.95MB)](https://desktop.figma.com/mac/Figma-95.5.0.zip)|
+`v93.4.0`|2021/03/03|[Windows(72.41MB)](https://desktop.figma.com/win/Figma-93.4.0-full.nupkg)|[macOS(77.14MB)](https://desktop.figma.com/mac/Figma-93.4.0.zip)|
+`v93.1.0`|2020/12/14|[Windows(72.41MB)](https://desktop.figma.com/win/Figma-93.1.0-full.nupkg)|[macOS(77.14MB)](https://desktop.figma.com/mac/Figma-93.1.0.zip)|
+`v92.5.0`|2020/12/11|[Windows(72.41MB)](https://desktop.figma.com/win/Figma-92.5.0-full.nupkg)||
+`v92.3.0`|2020/12/08|[Windows(72.41MB)](https://desktop.figma.com/win/Figma-92.3.0-full.nupkg)|[macOS(77.15MB)](https://desktop.figma.com/mac/Figma-92.3.0.zip)|
+`v92.2.0`|2020/12/08||[macOS(77.15MB)](https://desktop.figma.com/mac/Figma-92.2.0.zip)|
+`v91.8.0`|2020/12/04||[macOS(77.15MB)](https://desktop.figma.com/mac/Figma-91.8.0.zip)|
+`v91.7.0`|2020/12/04|[Windows(72.41MB)](https://desktop.figma.com/win/Figma-91.7.0-full.nupkg)|[macOS(77.15MB)](https://desktop.figma.com/mac/Figma-91.7.0.zip)|
+`v90.4.0`|2020/12/08||[macOS(73.03MB)](https://desktop.figma.com/mac/Figma-90.4.0.zip)|
+`v90.3.0`|2020/12/11|[Windows(65.82MB)](https://desktop.figma.com/win/Figma-90.3.0-full.nupkg)|[macOS(73.02MB)](https://desktop.figma.com/mac/Figma-90.3.0.zip)|
+`v88.1.0`|2020/10/22|[Windows(59.74MB)](https://desktop.figma.com/win/Figma-88.1.0-full.nupkg)|[macOS(64.30MB)](https://desktop.figma.com/mac/Figma-88.1.0.zip)|
+`v86.5.0`|2020/07/22|[Windows(59.91MB)](https://desktop.figma.com/win/Figma-86.5.0-full.nupkg)|[macOS(64.52MB)](https://desktop.figma.com/mac/Figma-86.5.0.zip)|
+`v86.4.0`|2020/06/11|[Windows(59.90MB)](https://desktop.figma.com/win/Figma-86.4.0-full.nupkg)|[macOS(64.51MB)](https://desktop.figma.com/mac/Figma-86.4.0.zip)|
+`v85.12.0`|2020/04/21|[Windows(58.40MB)](https://desktop.figma.com/win/Figma-85.12.0-full.nupkg)|[macOS(64.52MB)](https://desktop.figma.com/mac/Figma-85.12.0.zip)|
+`v85.10.0`|2020/04/01|[Windows(58.40MB)](https://desktop.figma.com/win/Figma-85.10.0-full.nupkg)|[macOS(64.51MB)](https://desktop.figma.com/mac/Figma-85.10.0.zip)|
+`v85.3.0`|2020/02/04|[Windows(58.41MB)](https://desktop.figma.com/win/Figma-85.3.0-full.nupkg)|[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-85.3.0.zip)|
+`v85.2.0`|2020/02/04|[Windows(58.41MB)](https://desktop.figma.com/win/Figma-85.2.0-full.nupkg)||
+`v85.1.0`|2020/01/31|[Windows(58.41MB)](https://desktop.figma.com/win/Figma-85.1.0-full.nupkg)|[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-85.1.0.zip)|
+`v84.2.0`|2020/01/23||[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-84.2.0.zip)|
+`v84.1.0`|2020/01/22||[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-84.1.0.zip)|
+`v83.6.1`|2020/01/18||[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.6.1.zip)|
+`v83.6.0`|2020/01/16|[Windows(55.95MB)](https://desktop.figma.com/win/Figma-83.6.0-full.nupkg)|[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.6.0.zip)|
+`v83.5.0`|2020/01/14||[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.5.0.zip)|
+`v83.4.0`|2019/12/12|[Windows(55.96MB)](https://desktop.figma.com/win/Figma-83.4.0-full.nupkg)|[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.4.0.zip)|
+`v83.3.0`|2019/11/22|[Windows(55.96MB)](https://desktop.figma.com/win/Figma-83.3.0-full.nupkg)|[macOS(65.52MB)](https://desktop.figma.com/mac/Figma-83.3.0.zip)|
+`v82.1.0`|2019/11/14||[macOS(65.54MB)](https://desktop.figma.com/mac/Figma-82.1.0.zip)|
+`v81.6.0`|2019/11/01|[Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.6.0-full.nupkg)|[macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.6.0.zip)|
+`v81.5.0`|2019/10/22|[Windows(56.07MB)](https://desktop.figma.com/win/Figma-81.5.0-full.nupkg)|[macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.5.0.zip)|
+`v81.4.0`|2019/10/05|[Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.4.0-full.nupkg)|[macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.4.0.zip)|
+`v81.3.0`|2019/10/03|[Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.3.0-full.nupkg)|[macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.3.0.zip)|
+`v81.2.0`|2019/10/03|[Windows(56.06MB)](https://desktop.figma.com/win/Figma-81.2.0-full.nupkg)|[macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.2.0.zip)|
+`v81.1.0`|2019/10/01||[macOS(65.53MB)](https://desktop.figma.com/mac/Figma-81.1.0.zip)|
+`v80.1.0`|2019/09/21|[Windows(52.62MB)](https://desktop.figma.com/win/Figma-80.1.0-full.nupkg)|[macOS(57.42MB)](https://desktop.figma.com/mac/Figma-80.1.0.zip)|
+`v77.13.0`|2019/11/13||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.13.0.zip)|
+`v77.12.0`|2019/11/13||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.12.0.zip)|
+`v77.11.0`|2019/11/05||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.11.0.zip)|
+`v77.10.0`|2019/11/05||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.10.0.zip)|
+`v77.9.0`|2019/11/05||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.9.0.zip)|
+`v77.8.0`|2019/11/05||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.8.0.zip)|
+`v77.7.0`|2019/10/30||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.7.0.zip)|
+`v77.6.0`|2019/10/30||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.6.0.zip)|
+`v77.5.0`|2019/10/29||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.5.0.zip)|
+`v77.4.0`|2019/10/23|[Windows(47.77MB)](https://desktop.figma.com/win/Figma-77.4.0-full.nupkg)|[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.4.0.zip)|
+`v77.3.0`|2019/10/22|[Windows(47.77MB)](https://desktop.figma.com/win/Figma-77.3.0-full.nupkg)|[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.3.0.zip)|
+`v77.2.0`|2019/10/17||[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.2.0.zip)|
+`v77.1.0`|2019/09/21|[Windows(47.77MB)](https://desktop.figma.com/win/Figma-77.1.0-full.nupkg)|[macOS(51.75MB)](https://desktop.figma.com/mac/Figma-77.1.0.zip)|
+`v76.4.0`|2019/08/28|[Windows(51.72MB)](https://desktop.figma.com/win/Figma-76.4.0-full.nupkg)|[macOS(51.73MB)](https://desktop.figma.com/mac/Figma-76.4.0.zip)|
+`v76.3.0`|2019/08/24||[macOS(51.73MB)](https://desktop.figma.com/mac/Figma-76.3.0.zip)|
+`v76.2.0`|2019/08/20||[macOS(50.20MB)](https://desktop.figma.com/mac/Figma-76.2.0.zip)|
+`v75.0.0`|2019/08/01|[Windows(51.70MB)](https://desktop.figma.com/win/Figma-75.0.0-full.nupkg)|[macOS(49.95MB)](https://desktop.figma.com/mac/Figma-75.0.0.zip)|
+`v74.4.0`|2019/07/30|[Windows(51.70MB)](https://desktop.figma.com/win/Figma-74.4.0-full.nupkg)|[macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.4.0.zip)|
+`v74.3.0`|2019/07/30|[Windows(51.70MB)](https://desktop.figma.com/win/Figma-74.3.0-full.nupkg)|[macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.3.0.zip)|
+`v74.2.0`|2019/07/27|[Windows(51.69MB)](https://desktop.figma.com/win/Figma-74.2.0-full.nupkg)|[macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.2.0.zip)|
+`v74.1.0`|2019/07/24|[Windows(51.70MB)](https://desktop.figma.com/win/Figma-74.1.0-full.nupkg)|[macOS(49.95MB)](https://desktop.figma.com/mac/Figma-74.1.0.zip)|
+`v73.7.0`|2019/07/11|[Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.7.0-full.nupkg)|[macOS(49.93MB)](https://desktop.figma.com/mac/Figma-73.7.0.zip)|
+`v73.6.0`|2019/07/10|[Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.6.0-full.nupkg)|[macOS(49.93MB)](https://desktop.figma.com/mac/Figma-73.6.0.zip)|
+`v73.5.0`|2019/07/09|[Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.5.0-full.nupkg)|[macOS(49.93MB)](https://desktop.figma.com/mac/Figma-73.5.0.zip)|
+`v73.4.0`|2019/06/19|[Windows(51.82MB)](https://desktop.figma.com/win/Figma-73.4.0-full.nupkg)|[macOS(49.90MB)](https://desktop.figma.com/mac/Figma-73.4.0.zip)|
+`v73.3.0`|2019/06/18|[Windows(51.83MB)](https://desktop.figma.com/win/Figma-73.3.0-full.nupkg)|[macOS(49.90MB)](https://desktop.figma.com/mac/Figma-73.3.0.zip)|
+`v73.2.0`|2019/06/12||[macOS(49.90MB)](https://desktop.figma.com/mac/Figma-73.2.0.zip)|
+`v72.2.0`|2019/04/26||[macOS(49.67MB)](https://desktop.figma.com/mac/Figma-72.2.0.zip)|
+`v71.4.0`|2019/04/24|[Windows(51.57MB)](https://desktop.figma.com/win/Figma-71.4.0-full.nupkg)|[macOS(49.67MB)](https://desktop.figma.com/mac/Figma-71.4.0.zip)|
+`v71.3.0`|2019/04/24|[Windows(51.57MB)](https://desktop.figma.com/win/Figma-71.3.0-full.nupkg)|[macOS(49.67MB)](https://desktop.figma.com/mac/Figma-71.3.0.zip)|
+`v71.2.0`|2019/04/09|[Windows(51.59MB)](https://desktop.figma.com/win/Figma-71.2.0-full.nupkg)|[macOS(49.70MB)](https://desktop.figma.com/mac/Figma-71.2.0.zip)|
+`v71.1.0`|2019/04/05|[Windows(51.59MB)](https://desktop.figma.com/win/Figma-71.1.0-full.nupkg)|[macOS(49.70MB)](https://desktop.figma.com/mac/Figma-71.1.0.zip)|
+`v70.3.0`|2019/03/26|[Windows(51.59MB)](https://desktop.figma.com/win/Figma-70.3.0-full.nupkg)|[macOS(49.70MB)](https://desktop.figma.com/mac/Figma-70.3.0.zip)|
+`v70.2.0`|2019/03/23|[Windows(51.59MB)](https://desktop.figma.com/win/Figma-70.2.0-full.nupkg)|[macOS(49.70MB)](https://desktop.figma.com/mac/Figma-70.2.0.zip)|
+`v70.1.0`|2019/01/09|[Windows(58.69MB)](https://desktop.figma.com/win/Figma-70.1.0-full.nupkg)|[macOS(52.14MB)](https://desktop.figma.com/mac/Figma-70.1.0.zip)|
+`v69.9.0`|2019/03/22||[macOS(49.70MB)](https://desktop.figma.com/mac/Figma-69.9.0.zip)|
+`v69.8.0`|2019/03/19||[macOS(49.70MB)](https://desktop.figma.com/mac/Figma-69.8.0.zip)|
+`v69.7.0`|2019/03/14||[macOS(49.69MB)](https://desktop.figma.com/mac/Figma-69.7.0.zip)|
+`v69.6.0`|2019/03/01||[macOS(48.80MB)](https://desktop.figma.com/mac/Figma-69.6.0.zip)|
+`v69.4.0`|2019/02/27||[macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.4.0.zip)|
+`v69.3.0`|2019/02/12||[macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.3.0.zip)|
+`v69.2.0`|2019/02/09||[macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.2.0.zip)|
+`v69.1.0`|2019/02/02||[macOS(46.45MB)](https://desktop.figma.com/mac/Figma-69.1.0.zip)|
+`v68.5.0`|2019/01/10|[Windows(49.14MB)](https://desktop.figma.com/win/Figma-68.5.0-full.nupkg)|[macOS(46.45MB)](https://desktop.figma.com/mac/Figma-68.5.0.zip)|
+`v68.4.0`|2019/01/09|[Windows(49.14MB)](https://desktop.figma.com/win/Figma-68.4.0-full.nupkg)|[macOS(46.45MB)](https://desktop.figma.com/mac/Figma-68.4.0.zip)|
+`v68.1.0`|2018/12/12|[Windows(49.14MB)](https://desktop.figma.com/win/Figma-68.1.0-full.nupkg)|[macOS(46.44MB)](https://desktop.figma.com/mac/Figma-68.1.0.zip)|
+`v67.5.0`|2018/12/06|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-67.5.0-full.nupkg)|[macOS(46.43MB)](https://desktop.figma.com/mac/Figma-67.5.0.zip)|
+`v67.3.0`|2018/12/05|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-67.3.0-full.nupkg)|[macOS(46.43MB)](https://desktop.figma.com/mac/Figma-67.3.0.zip)|
+`v67.1.0`|2018/12/01|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-67.1.0-full.nupkg)|[macOS(46.43MB)](https://desktop.figma.com/mac/Figma-67.1.0.zip)|
+`v66.4.0`|2018/11/29|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-66.4.0-full.nupkg)|[macOS(46.43MB)](https://desktop.figma.com/mac/Figma-66.4.0.zip)|
+`v66.2.0`|2018/10/25|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-66.2.0-full.nupkg)|[macOS(46.43MB)](https://desktop.figma.com/mac/Figma-66.2.0.zip)|
+`v65.1.0`|2018/10/12|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-65.1.0-full.nupkg)|[macOS(46.43MB)](https://desktop.figma.com/mac/Figma-65.1.0.zip)|
+`v64.3.0`|2018/10/11|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-64.3.0-full.nupkg)||
+`v64.2.0`|2018/10/05|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-64.2.0-full.nupkg)|[macOS(46.43MB)](https://desktop.figma.com/mac/Figma-64.2.0.zip)|
+`v64.0.0`|2018/08/23|[Windows(49.13MB)](https://desktop.figma.com/win/Figma-64.0.0-full.nupkg)|[macOS(46.35MB)](https://desktop.figma.com/mac/Figma-64.0.0.zip)|
+`v63.4.0`|2018/08/17||[macOS(46.35MB)](https://desktop.figma.com/mac/Figma-63.4.0.zip)|
+`v63.3.0`|2018/08/09|[Windows(49.12MB)](https://desktop.figma.com/win/Figma-63.3.0-full.nupkg)|[macOS(46.35MB)](https://desktop.figma.com/mac/Figma-63.3.0.zip)|
+`v63.2.0`|2018/07/14||[macOS(46.36MB)](https://desktop.figma.com/mac/Figma-63.2.0.zip)|
+`v4.0.1`|2018/07/11|[Windows(49.10MB)](https://desktop.figma.com/win/Figma-4.0.1-full.nupkg)|[macOS(46.33MB)](https://desktop.figma.com/mac/Figma-4.0.1.zip)|
+`v4.0.0`|2018/07/10||[macOS(46.33MB)](https://desktop.figma.com/mac/Figma-4.0.0.zip)|
+`v3.8.2`|2018/06/20|[Windows(49.09MB)](https://desktop.figma.com/win/Figma-3.8.2-full.nupkg)|[macOS(46.33MB)](https://desktop.figma.com/mac/Figma-3.8.2.zip)|
+`v3.8.0`|2018/06/16|[Windows(49.09MB)](https://desktop.figma.com/win/Figma-3.8.0-full.nupkg)|[macOS(46.33MB)](https://desktop.figma.com/mac/Figma-3.8.0.zip)|
+`v3.7.1`|2018/06/12||[macOS(46.33MB)](https://desktop.figma.com/mac/Figma-3.7.1.zip)|
+`v3.7.0`|2018/03/21|[Windows(49.09MB)](https://desktop.figma.com/win/Figma-3.7.0-full.nupkg)|[macOS(46.32MB)](https://desktop.figma.com/mac/Figma-3.7.0.zip)|
+`v3.6.15`|2018/06/15|[Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.15-full.nupkg)|[macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.15.zip)|
+`v3.6.14`|2018/06/12|[Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.14-full.nupkg)|[macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.14.zip)|
+`v3.6.13`|2018/06/12|[Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.13-full.nupkg)|[macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.13.zip)|
+`v3.6.12`|2018/05/24|[Windows(48.67MB)](https://desktop.figma.com/win/Figma-3.6.12-full.nupkg)|[macOS(45.13MB)](https://desktop.figma.com/mac/Figma-3.6.12.zip)|
+`v3.6.10`|2018/04/24||[macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.10.zip)|
+`v3.6.9`|2018/04/19|[Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.9-full.nupkg)||
+`v3.6.8`|2018/04/17|[Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.8-full.nupkg)|[macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.8.zip)|
+`v3.6.6`|2018/04/12|[Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.6-full.nupkg)|[macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.6.zip)|
+`v3.6.4`|2018/04/05|[Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.4-full.nupkg)|[macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.4.zip)|
+`v3.6.3`|2018/04/04|[Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.3-full.nupkg)|[macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.3.zip)|
+`v3.6.1`|2018/04/03|[Windows(48.66MB)](https://desktop.figma.com/win/Figma-3.6.1-full.nupkg)|[macOS(45.12MB)](https://desktop.figma.com/mac/Figma-3.6.1.zip)|
+`v3.6.0`|2018/02/22||[macOS(48.03MB)](https://desktop.figma.com/mac/Figma-3.6.0.zip)|
+`v3.5.3`|2018/02/14|[Windows(53.22MB)](https://desktop.figma.com/win/Figma-3.5.3-full.nupkg)|[macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.3.zip)|
+`v3.5.2`|2018/02/10|[Windows(53.22MB)](https://desktop.figma.com/win/Figma-3.5.2-full.nupkg)|[macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.2.zip)|
+`v3.5.1`|2018/02/08||[macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.1.zip)|
+`v3.5.0`|2018/02/08|[Windows(53.21MB)](https://desktop.figma.com/win/Figma-3.5.0-full.nupkg)|[macOS(45.29MB)](https://desktop.figma.com/mac/Figma-3.5.0.zip)|
+`v3.3.1`|2018/01/24|[Windows(51.97MB)](https://desktop.figma.com/win/Figma-3.3.1-full.nupkg)|[macOS(45.17MB)](https://desktop.figma.com/mac/Figma-3.3.1.zip)|
+`v3.3.0`|2017/09/15|[Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.3.0-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.3.0.zip)|
+`v3.2.0`|2017/09/15|[Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.2.0-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.2.0.zip)|
+`v3.1.0`|2017/09/14|[Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.1.0-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.1.0.zip)|
+`v3.0.4`|2017/08/16|[Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.0.4-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.4.zip)|
+`v3.0.3`|2017/08/16|[Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.0.3-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.3.zip)|
+`v3.0.2`|2017/08/16|[Windows(51.96MB)](https://desktop.figma.com/win/Figma-3.0.2-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.2.zip)|
+`v3.0.1`|2017/07/20|[Windows(51.97MB)](https://desktop.figma.com/win/Figma-3.0.1-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.1.zip)|
+`v3.0.0`|2017/07/18|[Windows(51.97MB)](https://desktop.figma.com/win/Figma-3.0.0-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-3.0.0.zip)|
+`v2.0.2`|2017/07/08|[Windows(51.97MB)](https://desktop.figma.com/win/Figma-2.0.2-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-2.0.2.zip)|
+`v2.0.1`|2017/07/08|[Windows(51.97MB)](https://desktop.figma.com/win/Figma-2.0.1-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-2.0.1.zip)|
+`v2.0.0`|2017/06/30|[Windows(51.97MB)](https://desktop.figma.com/win/Figma-2.0.0-full.nupkg)|[macOS(45.16MB)](https://desktop.figma.com/mac/Figma-2.0.0.zip)|
+`v1.8.0`|2017/06/09|[Windows(52.07MB)](https://desktop.figma.com/win/Figma-1.8.0-full.nupkg)|[macOS(45.14MB)](https://desktop.figma.com/mac/Figma-1.8.0.zip)|
+`v1.7.2`|2017/06/07|[Windows(52.07MB)](https://desktop.figma.com/win/Figma-1.7.2-full.nupkg)|[macOS(45.14MB)](https://desktop.figma.com/mac/Figma-1.7.2.zip)|
+`v1.7.1`|2017/06/01|[Windows(52.07MB)](https://desktop.figma.com/win/Figma-1.7.1-full.nupkg)|[macOS(45.14MB)](https://desktop.figma.com/mac/Figma-1.7.1.zip)|
+`v1.6.0`|2017/04/21|[Windows(50.54MB)](https://desktop.figma.com/win/Figma-1.6.0-full.nupkg)||
+`v1.5.1`|2017/04/20|[Windows(50.54MB)](https://desktop.figma.com/win/Figma-1.5.1-full.nupkg)||

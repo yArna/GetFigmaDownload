@@ -1,3 +1,9 @@
+<p align="center">
+    <img src="icon.png" width="256" height="256" alt="Get Figma Download Icon"/>
+</p>
+
+
+
 # 获取 Figma 桌面客户端地址
 
 有时候我们无法访问 Figma 官方网站，或者是需要的不是最新版本，此时你就可以从使用本工具获得版本
