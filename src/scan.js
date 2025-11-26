@@ -5,16 +5,39 @@ import { versionCompare } from "fzz";
 //--------------------------
 // 扫描可用版本，指定最小到最大的版本范围（如 0 -> 120 ）
 // 结果保存到 versions.json 中
-scan(125, 127);
+// scan(125, 127);
+scan("125.10.4", 127);
 
 //--------------------------
 
 async function scan(min, max) {
   let resultPool = Object.assign({});
 
-  for (let v1 = min; v1 < max; v1++) {
+  const parse = (v) => {
+    if (typeof v === "number") return { v1: v, v2: 0, v3: 0, isNum: true };
+    const [v1, v2 = 0, v3 = 0] = v.split(".").map(Number);
+    return { v1, v2, v3, isNum: false };
+  };
+
+  const start = parse(min);
+  const end = parse(max);
+
+  const maxV1 = end.isNum ? end.v1 : end.v1 + 1;
+
+  for (let v1 = start.v1; v1 < maxV1; v1++) {
     for (let v2 = 0; v2 < 30; v2++) {
       for (let v3 = 0; v3 < 30; v3++) {
+        // Check min
+        if (v1 === start.v1) {
+          if (v2 < start.v2) continue;
+          if (v2 === start.v2 && v3 < start.v3) continue;
+        }
+        // Check max
+        if (!end.isNum && v1 === end.v1) {
+          if (v2 > end.v2) break;
+          if (v2 === end.v2 && v3 >= end.v3) break;
+        }
+
         let ver = `${v1}.${v2}.${v3}`;
         if (v2 == 0) {
           await fetchVer(ver, resultPool);
