@@ -1607,6 +1607,14 @@
             "type": "Windows",
             "size": 139419086,
             "date": "2026-02-05T22:06:21.000Z"
+        },
+        {
+            "ver": "126.2.5",
+            "url": "https://desktop.figma.com/win/Figma-126.2.5-full.nupkg",
+            "fileName": "Figma-126.2.5.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 139432977,
+            "date": "2026-03-09T21:21:22.000Z"
         }
     ],
     "macOS": [
@@ -3505,6 +3513,14 @@
             "type": "macOS",
             "size": 127112220,
             "date": "2026-02-05T22:06:52.000Z"
+        },
+        {
+            "ver": "126.2.5",
+            "url": "https://desktop.figma.com/mac/Figma-126.2.5.zip",
+            "fileName": "Figma-126.2.5.MacOS.zip",
+            "type": "macOS",
+            "size": 127118351,
+            "date": "2026-03-09T21:21:55.000Z"
         }
     ],
     "macOS_ARM": [
@@ -4371,6 +4387,14 @@
             "type": "macOS_ARM",
             "size": 119605657,
             "date": "2026-02-05T22:07:44.000Z"
+        },
+        {
+            "ver": "126.2.5",
+            "url": "https://desktop.figma.com/mac-arm/Figma-126.2.5.zip",
+            "fileName": "Figma-126.2.5.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 119607898,
+            "date": "2026-03-09T17:06:13.000Z"
         }
     ]
 }

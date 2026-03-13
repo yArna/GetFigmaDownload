@@ -14,7 +14,7 @@
             "fileName": "Figma-126.0.4.Windows.nupkg.zip",
             "type": "Windows",
             "size": 139196012,
-            "date": "2026-02-05T22:06:25.000Z"
+            "date": "2026-02-12T17:54:06.000Z"
         },
         {
             "ver": "126.1.2",
@@ -22,7 +22,15 @@
             "fileName": "Figma-126.1.2.Windows.nupkg.zip",
             "type": "Windows",
             "size": 139419086,
-            "date": "2026-02-05T22:06:21.000Z"
+            "date": "2026-03-09T21:21:26.000Z"
+        },
+        {
+            "ver": "126.2.5",
+            "url": "https://desktop.figma.com/win/Figma-126.2.5-full.nupkg",
+            "fileName": "Figma-126.2.5.Windows.nupkg.zip",
+            "type": "Windows",
+            "size": 139432977,
+            "date": "2026-03-09T21:21:22.000Z"
         }
     ],
     "macOS_ARM": [
@@ -40,7 +48,7 @@
             "fileName": "Figma-126.0.4.MacOS_ARM.zip",
             "type": "macOS_ARM",
             "size": 120033468,
-            "date": "2026-01-27T23:01:08.000Z"
+            "date": "2026-02-12T17:50:28.000Z"
         },
         {
             "ver": "126.1.2",
@@ -48,7 +56,15 @@
             "fileName": "Figma-126.1.2.MacOS_ARM.zip",
             "type": "macOS_ARM",
             "size": 119605657,
-            "date": "2026-02-05T22:07:44.000Z"
+            "date": "2026-02-17T22:58:30.000Z"
+        },
+        {
+            "ver": "126.2.5",
+            "url": "https://desktop.figma.com/mac-arm/Figma-126.2.5.zip",
+            "fileName": "Figma-126.2.5.MacOS_ARM.zip",
+            "type": "macOS_ARM",
+            "size": 119607898,
+            "date": "2026-03-09T17:06:13.000Z"
         }
     ],
     "macOS": [
@@ -66,7 +82,15 @@
             "fileName": "Figma-126.0.4.MacOS.zip",
             "type": "macOS",
             "size": 126896736,
-            "date": "2026-01-27T23:02:19.000Z"
+            "date": "2026-02-12T17:52:00.000Z"
+        },
+        {
+            "ver": "126.2.5",
+            "url": "https://desktop.figma.com/mac/Figma-126.2.5.zip",
+            "fileName": "Figma-126.2.5.MacOS.zip",
+            "type": "macOS",
+            "size": 127118351,
+            "date": "2026-03-09T21:21:55.000Z"
         },
         {
             "ver": "126.1.2",
@@ -74,7 +98,7 @@
             "fileName": "Figma-126.1.2.MacOS.zip",
             "type": "macOS",
             "size": 127112220,
-            "date": "2026-02-05T22:06:52.000Z"
+            "date": "2026-02-17T22:58:01.000Z"
         }
     ]
 }
