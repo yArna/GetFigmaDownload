@@ -220,6 +220,8 @@ https://desktop.figma.com/win/Figma-126.6.14-full.nupkg
 https://desktop.figma.com/win/Figma-126.7.6-full.nupkg
 https://desktop.figma.com/win/Figma-126.7.8-full.nupkg
 https://desktop.figma.com/win/Figma-126.7.10-full.nupkg
+https://desktop.figma.com/win/Figma-126.8.13-full.nupkg
+https://desktop.figma.com/win/Figma-126.8.16-full.nupkg
 https://desktop.figma.com/mac/Figma-1.7.1.zip
 https://desktop.figma.com/mac/Figma-1.7.2.zip
 https://desktop.figma.com/mac/Figma-1.8.0.zip
@@ -479,6 +481,8 @@ https://desktop.figma.com/mac/Figma-126.6.14.zip
 https://desktop.figma.com/mac/Figma-126.7.6.zip
 https://desktop.figma.com/mac/Figma-126.7.8.zip
 https://desktop.figma.com/mac/Figma-126.7.10.zip
+https://desktop.figma.com/mac/Figma-126.8.13.zip
+https://desktop.figma.com/mac/Figma-126.8.16.zip
 https://desktop.figma.com/mac-arm/Figma-98.10.0.zip
 https://desktop.figma.com/mac-arm/Figma-98.11.0.zip
 https://desktop.figma.com/mac-arm/Figma-99.0.0.zip
@@ -608,3 +612,5 @@ https://desktop.figma.com/mac-arm/Figma-126.6.14.zip
 https://desktop.figma.com/mac-arm/Figma-126.7.6.zip
 https://desktop.figma.com/mac-arm/Figma-126.7.8.zip
 https://desktop.figma.com/mac-arm/Figma-126.7.10.zip
+https://desktop.figma.com/mac-arm/Figma-126.8.13.zip
+https://desktop.figma.com/mac-arm/Figma-126.8.16.zip

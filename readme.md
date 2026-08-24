@@ -14,9 +14,9 @@
 
 平台|版本|日期|地址
 ---|---|---|---
-[Windows(143.86MB)](https://desktop.figma.com/win/Figma-126.7.10-full.nupkg)|126.7.10|2026/08/21|https://desktop.figma.com/win/Figma-126.7.10-full.nupkg
-[macOS(127.54MB)](https://desktop.figma.com/mac/Figma-126.7.10.zip)|126.7.10|2026/08/21|https://desktop.figma.com/mac/Figma-126.7.10.zip
-[macOS_ARM(123.89MB)](https://desktop.figma.com/mac-arm/Figma-126.7.10.zip)|126.7.10|2026/08/21|https://desktop.figma.com/mac-arm/Figma-126.7.10.zip
+[Windows(138.31MB)](https://desktop.figma.com/win/Figma-126.8.16-full.nupkg)|126.8.16|2026/08/21|https://desktop.figma.com/win/Figma-126.8.16-full.nupkg
+[macOS(127.93MB)](https://desktop.figma.com/mac/Figma-126.8.16.zip)|126.8.16|2026/08/19|https://desktop.figma.com/mac/Figma-126.8.16.zip
+[macOS_ARM(123.11MB)](https://desktop.figma.com/mac-arm/Figma-126.8.16.zip)|126.8.16|2026/08/21|https://desktop.figma.com/mac-arm/Figma-126.8.16.zip
 
 可以通过抓取 JSON 文件获得最新版本信息：`https://github.com/yArna/GetFigmaDownload/raw/master/latest.json`
 
@@ -32,6 +32,8 @@ Window 安装包是 `.nupkg` 格式的，其实是 zip 压缩包，你可以添�
 
 版本|日期|Windows|macOS|macOS_ARM(苹果芯片)
 ---|---|---|---|---
+`v126.8.16`|2026/08/21|[Windows(138.31MB)](https://desktop.figma.com/win/Figma-126.8.16-full.nupkg)|[macOS(127.93MB)](https://desktop.figma.com/mac/Figma-126.8.16.zip)|[macOS_ARM(123.11MB)](https://desktop.figma.com/mac-arm/Figma-126.8.16.zip)
+`v126.8.13`|2026/08/18|[Windows(138.37MB)](https://desktop.figma.com/win/Figma-126.8.13-full.nupkg)|[macOS(128.02MB)](https://desktop.figma.com/mac/Figma-126.8.13.zip)|[macOS_ARM(122.80MB)](https://desktop.figma.com/mac-arm/Figma-126.8.13.zip)
 `v126.7.10`|2026/08/21|[Windows(143.86MB)](https://desktop.figma.com/win/Figma-126.7.10-full.nupkg)|[macOS(127.54MB)](https://desktop.figma.com/mac/Figma-126.7.10.zip)|[macOS_ARM(123.89MB)](https://desktop.figma.com/mac-arm/Figma-126.7.10.zip)
 `v126.7.8`|2026/07/22|[Windows(143.81MB)](https://desktop.figma.com/win/Figma-126.7.8-full.nupkg)|[macOS(127.51MB)](https://desktop.figma.com/mac/Figma-126.7.8.zip)|[macOS_ARM(123.85MB)](https://desktop.figma.com/mac-arm/Figma-126.7.8.zip)
 `v126.7.6`|2026/07/18|[Windows(143.81MB)](https://desktop.figma.com/win/Figma-126.7.6-full.nupkg)|[macOS(127.50MB)](https://desktop.figma.com/mac/Figma-126.7.6.zip)|[macOS_ARM(123.84MB)](https://desktop.figma.com/mac-arm/Figma-126.7.6.zip)
