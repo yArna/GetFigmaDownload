@@ -21,8 +21,8 @@ async function main() {
   }
   if (!max) {
     // 自动获取线上数据
-    max = await fetchOnlineLatestVersion();
-    // max = "127.1.1"
+    // max = await fetchOnlineLatestVersion();
+    max = "127.1.1"
   }
 
   await scan(min, max);
